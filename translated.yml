@@ -1,1184 +1,738 @@
 Admin:
-  account_list: "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  account_management: "\u0E01\u0E32\u0E23\u0E08\u0E31\u0E14\u0E01\u0E32\u0E23\u0E1A\
-    \u0E31\u0E0D\u0E0A\u0E35"
-  account_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  action: "\u0E01\u0E32\u0E23\u0E01\u0E23\u0E30\u0E17\u0E33"
-  balance: "\u0E22\u0E2D\u0E14\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D"
-  business: "\u0E18\u0E38\u0E23\u0E01\u0E34\u0E08"
-  distributor: "\u0E1C\u0E39\u0E49\u0E08\u0E31\u0E14\u0E08\u0E33\u0E2B\u0E19\u0E48\
-    \u0E32\u0E22"
-  exceptions: "\u0E02\u0E49\u0E2D\u0E22\u0E01\u0E40\u0E27\u0E49\u0E19"
-  master_rates: "\u0E23\u0E32\u0E04\u0E32\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A Master"
-  media: "\u0E2A\u0E37\u0E48\u0E2D"
-  name: "\u0E0A\u0E37\u0E48\u0E2D"
-  payment_list: "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\
-    \u0E07\u0E34\u0E19"
-  reseller: "\u0E15\u0E31\u0E27\u0E41\u0E17\u0E19\u0E08\u0E33\u0E2B\u0E19\u0E48\u0E32\
-    \u0E22"
-  sms_master_rates: "\u0E23\u0E32\u0E04\u0E32 SMS \u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\
-    \ master"
-  type: "\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17"
-  ussd_master_rates: "\u0E23\u0E32\u0E04\u0E32 USSD \u0E2A\u0E33\u0E2B\u0E23\u0E31\
-    \u0E1A master"
-  voice_master_rates: "\u0E23\u0E32\u0E04\u0E32 Voice \u0E2A\u0E33\u0E2B\u0E23\u0E31\
-    \u0E1A master"
+  account_list: 'Liste de compte '
+  account_management: 'Gestion de compte '
+  account_name: 'Nom du compte '
+  action: 'action '
+  balance: "\xC9quilibre "
+  business: 'Affaires '
+  distributor: Distributeur
+  exceptions: 'Exceptions '
+  master_rates: 'Tarifs principaux '
+  media: "M\xE9dias "
+  name: 'Nom '
+  payment_list: 'Liste de paiement '
+  reseller: Revendeur
+  sms_master_rates: "Taux de ma\xEEtre SMS "
+  type: 'Taper '
+  ussd_master_rates: 'USSD Master Tarifs '
+  voice_master_rates: "Taux de ma\xEEtre vocal "
 Copyright:
-  privacy: "<div class=\"wpb_text_column wpb_content_element \"> <div class=\"wpb_wrapper\"\
-    > <h3>Privacy Policy *Example*</h3> <p>This website is operated by <em>[school/Trust\
-    \ name]</em> and whose registered address is <em>[school/Trust address]</em> (\u201C\
-    We\u201D) are committed to protecting and preserving the privacy of our visitors\
-    \ when visiting our site or communicating electronically with us.</p> <p>This\
-    \ policy sets out how we process any personal data we collect from you or that\
-    \ you provide to us through our website. We confirm that we will keep your information\
-    \ secure and that we will comply fully with all applicable UK Data Protection\
-    \ legislation and regulations. Please read the following carefully to understand\
-    \ what happens to personal data that you choose to provide to us, or that we collect\
-    \ from you when you visit this site. By visiting<em> [URL of school/Trust website]</em>\
-    \ (our website) you are accepting and consenting to the practices described in\
-    \ this policy.</p> <h4>Types of information we may collect from you</h4> <p>We\
-    \ may collect, store and use the following kinds of personal information about\
-    \ individuals who visit and use our website:</p> <p><strong>Information you supply\
-    \ to us.</strong> You may supply us with information about you by filling in forms\
-    \ on our website. This includes information you provide when you submit a contact/enquiry\
-    \ form <em>[list any other active forms on your website (ie. Request a Prospectus\
-    \ Form, Application Form, Report and Absence Form, etc.]</em>. The information\
-    \ you give us may include your name, address, e-mail address and phone number,\
-    \ <em>[list any other types of information you collect via other active forms\
-    \ on your website (ie. child\u2019s name, child\u2019s date of birth, etc.)]</em>.</p>\
-    \ <p><strong>Information our website automatically collects about you.</strong>\
-    \ With regard to each of your visits to our website we may automatically collect\
-    \ information including the following:</p> <ul> <li><strong>technical information</strong>,\
-    \ including a truncated and anonymised version of your Internet protocol (IP)\
-    \ address, browser type and version, operating system and platform;</li> <li><strong>information\
-    \ about your visit</strong>, including what pages you visit, how long you are\
-    \ on the site, how you got to the site (including date and time); page response\
-    \ times, length of visit, what you click on, documents downloaded and download\
-    \ errors.</li> </ul> <p><em>[Describe any other types of information you may collect\
-    \ through third party services you may have enabled on your website not linked\
-    \ to Cleverbox (ie. other tracking, marketing or SEO services)]</em></p> <p><strong>Cookies</strong></p>\
-    \ <p>Our website uses cookies to distinguish you from other users of our website.\
-    \ This helps us to provide you with a good experience when you browse our website\
-    \ and also allows us to improve our site. For detailed information on the cookies\
-    \ we use and the purposes for which we use them see our Cookie Policy <em>[Make\
-    \ this link to the cookie policy page on your website that will be automatically\
-    \ updated by Cleverbox]</em>.</p> <h4>How we may use the information we collect</h4>\
-    \ <p>We use the information in the following ways:</p> <p><strong>Information\
-    \ you supply to us. </strong>We will use this information:</p> <ul> <li>to provide\
-    \ you with information and/or services that you request from us;</li> </ul> <p><em>[Describe\
-    \ any other uses of the information you collect (ie. other marketing communications\
-    \ to individuals who have requested a prospectus)]</em></p> <p><strong>Information\
-    \ we automatically collect about you.</strong> We will use this information:</p>\
-    \ <ul> <li>to administer our site including troubleshooting and statistical purposes;</li>\
-    \ <li>to improve our site to ensure that content is presented in the most effective\
-    \ manner for you and for your computer;</li> <li>security and debugging as part\
-    \ of our efforts to keep our site safe and secure.</li> </ul> <p>This information\
-    \ is collected anonymously and is not linked to information that identifies you\
-    \ as an individual. We use Google Analytics to track this information. Find out\
-    \ how Google uses your data at <a href=\"https://support.google.com/analytics/answer/6004245\"\
-    \ target=\"_blank\" rel=\"noopener noreferrer\">https://support.google.com/analytics/answer/6004245</a>.\
-    \ <em>[Make this link to the GoogleAnalytics page]</em></p> <h4>Disclosure of\
-    \ your information</h4> <p>Any information you provide to us will either be emailed\
-    \ directly to us or may be stored on a secure server located near Dublin within\
-    \ the Republic of Ireland. We use a trusted third party website and hosting provider\
-    \ (Cleverbox) to facilitate the running and management of this website. Cleverbox\
-    \ meet high data protection and security standards and are bound by contract to\
-    \ keep any information they process on our behalf confidential. Any data that\
-    \ may be collected through this website that Cleverbox process, is kept secure\
-    \ and only processed in the manner we instruct them to. Cleverbox cannot access,\
-    \ provide, rectify or delete any data that they store on our behalf without permission.</p>\
-    \ <p>We do not rent, sell or share personal information about you with other people\
-    \ or non-affiliated companies. <em>[Check this statement is in accordance with\
-    \ your internal data processing activities and outline any other storage of information\
-    \ inline with your internal data policy (ie. Do you have a database of personal\
-    \ data stored on third party platforms such as MailChimp?)]</em></p> <p>We will\
-    \ use all reasonable efforts to ensure that your personal data is not disclosed\
-    \ to regional/national institutions and authorities, unless required by law or\
-    \ other regulations.</p> <p>Unfortunately, the transmission of information via\
-    \ the internet is not completely secure. Although we will do our best to protect\
-    \ your personal data, we cannot guarantee the security of your data transmitted\
-    \ to our site; any transmission is at your own risk. Once we have received your\
-    \ information, we will use strict procedures and security features to try to prevent\
-    \ unauthorised access.</p> <h4>Third party links</h4> <p>Our site may, from time\
-    \ to time, contain links to and from the third party websites. If you follow a\
-    \ link to any of these websites, please note that these websites have their own\
-    \ privacy policies and that we do not accept any responsibility or liability for\
-    \ these policies. Please check these policies before you submit any personal data\
-    \ to these websites.</p> <h4>Your rights \u2013 access to your personal data</h4>\
-    \ <p>You have the right to ensure that your personal data is being processed lawfully\
-    \ (\u201CSubject Access Right\u201D). Your subject access right can be exercised\
-    \ in accordance with data protection laws and regulations. Any subject access\
-    \ request must be made in writing to [insert school/Trust Data Controller contact\
-    \ details]. We will provide your personal data to you within the statutory time\
-    \ frames. To enable us to trace any of your personal data that we may be holding,\
-    \ we may need to request further information from you. If you have a complaint\
-    \ about how we have used your information, you have the right to complain to the\
-    \ Information Commissioner\u2019s Office (ICO).</p> <h4>Changes to our privacy\
-    \ policy</h4> <p>Any changes we may make to our privacy policy in the future will\
-    \ be posted on this page and, where appropriate, notified to you by e-mail. Please\
-    \ check back frequently to see any updates or changes to our privacy policy.</p>\
-    \ <h4>Contact</h4> <p>Questions, comments and requests regarding this privacy\
-    \ policy are welcomed and should be addressed to <em>[name and address or e-mail\
-    \ address]</em>.</p> </div> </div>"
-  terms: "<div class=\"inner\"> <h2>Website Terms and Conditions [Text Format]</h2>\
-    \ <p>Last updated <span style=\"color: #8351f9;\">[month day, year]</span></p>\
-    \ <p><strong>AGREEMENT TO TERMS</strong></p> <p>These Terms and Conditions constitute\
-    \ a legally binding agreement made between you, whether personally or on behalf\
-    \ of an entity (\u201Cyou\u201D) and<span style=\"color: #8351f9;\"> [business\
-    \ entity name]</span> (\u201Cwe,\u201D \u201Cus\u201D or \u201Cour\u201D), concerning\
-    \ your access to and use of the <span style=\"color: #8351f9;\">[website name.com]</span>\
-    \ website as well as any other media form, media channel, mobile website or mobile\
-    \ application related, linked, or otherwise connected thereto (collectively, the\
-    \ \u201CSite\u201D).</p> <p>You agree that by accessing the Site, you have read,\
-    \ understood, and agree to be bound by all of these Terms and Conditions. If you\
-    \ do not agree with all of these Terms and Conditions, then you are expressly\
-    \ prohibited from using the Site and you must discontinue use immediately.</p>\
-    \ <p>Supplemental terms and conditions or documents that may be posted on the\
-    \ Site from time to time are hereby expressly incorporated herein by reference.\
-    \ We reserve the right, in our sole discretion, to make changes or modifications\
-    \ to these Terms and Conditions at any time and for any reason.</p> <p>We will\
-    \ alert you about any changes by updating the \u201CLast updated\u201D date of\
-    \ these Terms and Conditions, and you waive any right to receive specific notice\
-    \ of each such change.</p> <p>It is your responsibility to periodically review\
-    \ these Terms and Conditions to stay informed of updates. You will be subject\
-    \ to, and will be deemed to have been made aware of and to have accepted, the\
-    \ changes in any revised Terms and Conditions by your continued use of the Site\
-    \ after the date such revised Terms and Conditions are posted.</p> <p>The information\
-    \ provided on the Site is not intended for distribution to or use by any person\
-    \ or entity in any jurisdiction or country where such distribution or use would\
-    \ be contrary to law or regulation or which would subject us to any registration\
-    \ requirement within such jurisdiction or country.</p> <p>Accordingly, those persons\
-    \ who choose to access the Site from other locations do so on their own initiative\
-    \ and are solely responsible for compliance with local laws, if and to the extent\
-    \ local laws are applicable.</p> <p>These terms and conditions were generated\
-    \ by <span style=\"color: #000000;\"><a style=\"color: #000000;\" href=\"https://termly.io/products/terms-and-conditions-generator/\"\
-    >Termly\u2019s Terms and Conditions Generator</a></span>.</p> <p><span style=\"\
-    color: #8351f9;\"><strong>Option 1</strong></span>: The Site is intended for users\
-    \ who are at least 18 years old. Persons under the age of 18 are not permitted\
-    \ to register for the Site.</p> <p><span style=\"color: #8351f9;\"><strong>Option\
-    \ 2</strong>: [The Site is intended for users who are at least 13 years of age.]</span>\
-    \ All users who are minors in the jurisdiction in which they reside (generally\
-    \ under the age of 18) must have the permission of, and be directly supervised\
-    \ by, their parent or guardian to use the Site. If you are a minor, you must have\
-    \ your parent or guardian read and agree to these Terms and Conditions prior to\
-    \ you using the Site.</p> <p><strong>INTELLECTUAL PROPERTY RIGHTS</strong></p>\
-    \ <p>Unless otherwise indicated, the Site is our proprietary property and all\
-    \ source code, databases, functionality, software, website designs, audio, video,\
-    \ text, photographs, and graphics on the Site (collectively, the \u201CContent\u201D\
-    ) and the trademarks, service marks, and logos contained therein (the \u201CMarks\u201D\
-    ) are owned or controlled by us or licensed to us, and are protected by copyright\
-    \ and trademark laws and various other intellectual property rights and unfair\
-    \ competition laws of the United States, foreign jurisdictions, and international\
-    \ conventions.</p> <p>The Content and the Marks are provided on the Site \u201C\
-    AS IS\u201D for your information and personal use only. Except as expressly provided\
-    \ in these Terms and Conditions, no part of the Site and no Content or Marks may\
-    \ be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed,\
-    \ encoded, translated, transmitted, distributed, sold, licensed, or otherwise\
-    \ exploited for any commercial purpose whatsoever, without our express prior written\
-    \ permission.</p> <p>Provided that you are eligible to use the Site, you are granted\
-    \ a limited license to access and use the Site and to download or print a copy\
-    \ of any portion of the Content to which you have properly gained access solely\
-    \ for your personal, non-commercial use. We reserve all rights not expressly granted\
-    \ to you in and to the Site, the Content and the Marks.</p> <p><strong>USER REPRESENTATIONS</strong></p>"
+  privacy: 'Warning: Can only detect less than 5000 characters'
+  terms: "<div la classe = \"interne\"> <H2> Conditions g\xE9n\xE9rales de site Web\
+    \ [Format texte] </ H2> <p> Derni\xE8re mise \xE0 jour <span style = \"Couleur:\
+    \ # 8351f9;\"> [Jour Mois, Ann\xE9e] </ Span> </ P> <p> <Strong> accord sur les\
+    \ termes </ strong> </ p> <p> Ces termes et conditions constituent un accord juridiquement\
+    \ contraignant entre vous, que ce soit personnellement ou pour le compte d'une\
+    \ entit\xE9 (\"vous\") et <span style = \"couleur: # 8351f9;\"> [Nom de l'entit\xE9\
+    \ commerciale] </ Span> (\"Nous\" \"nous\" ou \"Notre\"), concernant votre acc\xE8\
+    s \xE0 la couleur <sport style = \" : # 8351f9; \"> [Name de site Web.com] </\
+    \ SPAN> Site Web ainsi que tout autre formulaire multim\xE9dia, canal multim\xE9\
+    dia, site Web mobile ou application mobile associ\xE9, li\xE9 ou autrement connect\xE9\
+    \ \xE0 celui-ci (collectivement, le\" site \"). </ P> <p> Vous acceptez qu'en\
+    \ acc\xE9dant au site, vous avez lu, compris et accept\xE9 d'\xEAtre li\xE9 par\
+    \ tous ces termes et conditions. Si vous n'\xEAtes pas d'accord avec toutes ces\
+    \ termes et conditions, vous \xEAtes express\xE9ment interdit d'utiliser le site\
+    \ et vous devez interrompre l'utilisation imm\xE9diate. </ P> <p> Conditions g\xE9\
+    n\xE9rales compl\xE9mentaires ou documents pouvant \xEAtre affich\xE9s sur le\
+    \ site de Le temps de temps est express\xE9ment incorpor\xE9 ici par r\xE9f\xE9\
+    rence. Nous nous r\xE9servons le droit, \xE0 notre seule discr\xE9tion, d'apporter\
+    \ des modifications ou des modifications \xE0 ces termes et conditions \xE0 tout\
+    \ moment et pour une raison quelconque. </ P> <p> Nous vous avertirons de toute\
+    \ modification en mettant \xE0 jour la date \"Derni\xE8re mise \xE0 jour\" Parmi\
+    \ ces termes et conditions, vous renoncez \xE0 tout droit de recevoir un avis\
+    \ sp\xE9cifique de chaque changement de ce type. </ P> <p> Il est de votre responsabilit\xE9\
+    \ de passer p\xE9riodiquement ces termes et conditions pour rester inform\xE9\
+    \ des mises \xE0 jour. Vous serez soumis \xE0 et serez r\xE9put\xE9 avoir \xE9\
+    t\xE9 inform\xE9 et d'avoir accept\xE9, les modifications apport\xE9es aux termes\
+    \ et conditions r\xE9vis\xE9s par votre utilisation continue du site apr\xE8s\
+    \ la date de ces termes et conditions r\xE9vis\xE9s sont affich\xE9s. </ P > <p>\
+    \ Les informations fournies sur le site ne sont pas destin\xE9es \xE0 une distribution\
+    \ ou \xE0 une utilisation par une personne ou une entit\xE9 dans une juridiction\
+    \ ou un pays o\xF9 une telle distribution ou une telle utilisation serait contraire\
+    \ \xE0 la loi ou \xE0 la r\xE9glementation ou qui nous soumettrait \xE0 toute\
+    \ exigence d'enregistrement au sein de une telle juridiction ou pays. </ p> <p>\
+    \ En cons\xE9quence, les personnes qui choisissent d'acc\xE9der au site des autres\
+    \ endroits le font sur leur propre initiative et sont seuls responsables du respect\
+    \ des lois locales, si et dans la mesure o\xF9 les lois locales sont applicables\
+    \ . </ P> <p> Ces termes et conditions ont \xE9t\xE9 g\xE9n\xE9r\xE9s par <span\
+    \ style = \"Couleur: # 000000;\"> <un style = \"Couleur: # 000000;\" href = \"\
+    https:// attermly.io/products/Terms-and-conditions-generator/\"> G\xE9n\xE9rateur\
+    \ de termes et conditions de Termy </a> </ span>. </ p> <p> <p> <Style = \"Couleur\
+    \ : # 8351f9; \"> <strong> option 1 </ forte> </ span>: le site est destin\xE9\
+    \ aux utilisateurs \xE2g\xE9s d'au moins 18 ans. Les personnes de moins de 18\
+    \ ans ne sont pas autoris\xE9es \xE0 s'inscrire au site. </ P> <p> <p> <Style\
+    \ = \"Couleur: # 8351f9;\"> <Strong> Option 2 </ forte>: [Le site est destin\xE9\
+    \ \xE0 les utilisateurs \xE2g\xE9s d'au moins 13 ans.] </ span> Tous les utilisateurs\
+    \ de mineurs dans la juridiction dans laquelle ils r\xE9sident (degr\xE9 de moins\
+    \ de 18 ans) doivent avoir la permission et \xEAtre directement supervis\xE9s\
+    \ par leur parent ou tuteur \xE0 utiliser le site. Si vous \xEAtes mineur, vous\
+    \ devez avoir votre parent ou votre tuteur, lire et accepter ces termes et conditions\
+    \ avant de vous utiliser le site. </ P> <p> <strong> Droits de propri\xE9t\xE9\
+    \ intellectuelle </ strong> </ P> < p> Sauf indication contraire, le site est\
+    \ notre propri\xE9t\xE9 exclusive et tout code source, bases de donn\xE9es, fonctionnalit\xE9\
+    s, logiciels, conceptions de sites Web, audio, vid\xE9o, texte, photographies\
+    \ et graphiques sur le site (collectivement, le \"contenu\") et les marques de\
+    \ commerce , les marques de service et les logos qui y sont contenus (les \xAB\
+    marques\xBB) sont poss\xE9d\xE9s ou contr\xF4l\xE9s par nous ou sous licence \xE0\
+    \ nous, et sont prot\xE9g\xE9s par les lois sur le droit d'auteur et les marques\
+    \ et \xE0 divers autres droits de propri\xE9t\xE9 intellectuelle et lois de la\
+    \ concurrence injuste des \xC9tats-Unis, des juridictions \xE9trang\xE8res. et\
+    \ Conventions internationales. </ P> <p> Le contenu et les marques sont fournis\
+    \ sur le site \"tel quel\" pour votre information et votre usage personnel uniquement.\
+    \ Sauf que, express\xE9ment fournie dans les pr\xE9sentes conditions g\xE9n\xE9\
+    rales, aucune partie du site et aucun contenu ni marques ne peut \xEAtre copi\xE9\
+    e, reproduite, agr\xE9g\xE9e, republi\xE9e, t\xE9l\xE9charg\xE9e, affich\xE9e,\
+    \ affich\xE9e publiquement, cod\xE9e, traduite, transmise, distribu\xE9e, vendue,\
+    \ licenci\xE9e, ou autrement exploit\xE9 \xE0 des fins commerciales, sans notre\
+    \ autorisation \xE9crite pr\xE9c\xE9dente expresse. </ P> <p> \xE0 condition que\
+    \ vous soyez \xE9ligible pour utiliser le site, vous obtenez une licence limit\xE9\
+    e pour acc\xE9der \xE0 et utiliser le site et t\xE9l\xE9charger ou imprimer un\
+    \ Copie de toute partie du contenu auquel vous avez correctement gagn\xE9 l'acc\xE8\
+    s uniquement \xE0 votre utilisation personnelle et non commerciale. Nous r\xE9\
+    servent tous les droits qui ne vous sont pas express\xE9ment express\xE9s dans\
+    \ et sur le site, le contenu et les marques. </ P> <p> <strong> repr\xE9sentations\
+    \ de l'utilisateur </ strong> </ p> "
 Currency:
-  British Pound: British Pound
-  Euro: Euro
-  FCFA XAF: FCFA XAF
-  FCFA XOF: FCFA XOF
-  Indian Rupee: Indian Rupee
-  Nigerian Naira: Nigerian Naira
-  Pakistani Rupee: Pakistani Rupee
-  Thai Baht: "\u0E1A\u0E32\u0E17\u0E44\u0E17\u0E22"
-  Tunisian Dinar: Tunisian Dinar
-  US Dollar: US Dollar
+  British Pound: 'Livre sterling '
+  Euro: 'euro '
+  FCFA XAF: 'FSFS ASF '
+  FCFA XOF: 'Fcfa xof '
+  Indian Rupee: 'Roupie indienne '
+  Nigerian Naira: "Naira nig\xE9rian "
+  Pakistani Rupee: 'Roupie pakistanaise '
+  Thai Baht: "Baht tha\xEFlandais "
+  Tunisian Dinar: "D\xE9jeuner tunisien "
+  US Dollar: "Dollars am\xE9ricain "
 Currency_code:
-  EUR: EUR
-  GBP: GBP
-  INR: INR
-  NGN: NGN
-  PKR: PKR
-  THB: "\u0E1A\u0E32\u0E17"
-  TND: TND
-  USD: USD
-  XAF: XAF
-  XOF: XOF
+  EUR: 'EUR. '
+  GBP: 'GBP '
+  INR: 'INR. '
+  NGN: 'Oustage '
+  PKR: 'Pkr '
+  THB: 'THB '
+  TND: 'Tnd. '
+  USD: 'USD '
+  XAF: 'Carboniser '
+  XOF: 'La frayeur '
 Dashboard:
-  all: "\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
-  amount: "\u0E08\u0E33\u0E19\u0E27\u0E19"
-  business: "\u0E18\u0E38\u0E23\u0E01\u0E34\u0E08\u0E15\u0E31\u0E27\u0E40\u0E2D\u0E07"
-  call_duration: "\u0E23\u0E30\u0E22\u0E30\u0E40\u0E27\u0E25\u0E32\u0E01\u0E32\u0E23\
-    \u0E42\u0E17\u0E23"
-  current_balance: "\u0E22\u0E2D\u0E14\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E1B\
-    \u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19"
-  date: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48"
-  distributor: "\u0E15\u0E31\u0E27\u0E41\u0E17\u0E19\u0E02\u0E32\u0E22\u0E23\u0E30\
-    \u0E14\u0E31\u0E1A\u0E43\u0E2B\u0E0D\u0E48"
-  get_started: "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19"
-  greeting: "\u0E22\u0E34\u0E19\u0E14\u0E35\u0E15\u0E49\u0E2D\u0E19\u0E23\u0E31\u0E1A\
-    \u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A _char_vyzyo_contact_char_ _char_name_char_"
-  id: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E44\u0E2D\u0E14\u0E35"
-  inbound: Inbound
-  logout: "\u0E2D\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E23\u0E30\u0E1A\u0E1A"
-  media_type: "\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E02\u0E2D\u0E07\u0E21\u0E35\u0E40\
-    \u0E14\u0E35\u0E22"
-  mms_inbound: Inbound MMS
-  mms_outbound: Outbound MMS
-  msg: "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A\u0E02\u0E2D\
-    \u0E07\u0E04\u0E38\u0E13 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E40\u0E1B\u0E34\u0E14\
-    \u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\
-    \u0E48\u0E19\u0E15\u0E48\u0E32\u0E07\u0E46"
-  outbound: Outbound
-  pending_sms: "SMS \u0E04\u0E07\u0E04\u0E49\u0E32\u0E07\u0E43\u0E19\u0E23\u0E30\u0E1A\
-    \u0E1A"
-  quick_actions: "\u0E40\u0E21\u0E19\u0E39\u0E25\u0E31\u0E14"
-  recent_transaction: "\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E25\
-    \u0E48\u0E32\u0E2A\u0E38\u0E14"
-  reseller: "\u0E15\u0E31\u0E27\u0E41\u0E17\u0E19\u0E02\u0E32\u0E22"
-  sent_sms: "SMS \u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E2A\u0E48\u0E07"
-  services_cost: "\u0E04\u0E48\u0E32\u0E43\u0E0A\u0E49\u0E1A\u0E23\u0E34\u0E01\u0E32\
-    \u0E23"
-  sms_inbound: Inbound SMS
-  sms_outbound: Outbound SMS
-  status: "\u0E2A\u0E16\u0E32\u0E19\u0E30"
-  summary: "\u0E2A\u0E23\u0E38\u0E1B"
-  suspended_sms: "SMS \u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E23\u0E30\u0E07\u0E31\
-    \u0E1A"
-  total_sms_cmp: "\u0E08\u0E33\u0E19\u0E27\u0E19 SMS campaigns"
-  total_sms_msg: "\u0E08\u0E33\u0E19\u0E27\u0E19 SMS messages"
-  total_sub: "\u0E08\u0E33\u0E19\u0E27\u0E19 \u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E22\u0E48\
-    \u0E2D\u0E22"
-  total_ussd_cmp: "\u0E08\u0E33\u0E19\u0E27\u0E19 USSD campaigns"
-  total_ussd_msg: "\u0E08\u0E33\u0E19\u0E27\u0E19 ussd messages"
-  total_voice_cmp: "\u0E08\u0E33\u0E19\u0E27\u0E19 voice campaigns"
-  total_voice_msg: "\u0E08\u0E33\u0E19\u0E27\u0E19 voice messages"
-  ussd_inbound: Inbound USSD
-  ussd_outbound: Outbound USSD
-  voice_inbound: Inbound voice
-  voice_outbound: Outbound voice
+  all: Tout
+  amount: Montant
+  business: 'Affaires '
+  call_duration: "Dur\xE9e d'appel "
+  current_balance: 'Solde actuel '
+  date: 'Date '
+  distributor: Distributeur
+  get_started: 'Commencer '
+  greeting: 'Bienvenue sur %vyzyo_contact%, %name% '
+  id: 'identifiant '
+  inbound: "Entrain\xE9"
+  logout: "Se d\xE9connecter "
+  media_type: 'Type de support '
+  mms_inbound: 'Mms entrants '
+  mms_outbound: 'Mms sortants '
+  msg: "Veuillez charger votre compte pour activer toutes les fonctionnalit\xE9s. "
+  no_media: "Aucun type de support activ\xE9 "
+  outbound: Sortant
+  pending_sms: 'SMS en attente '
+  quick_actions: 'Actions rapides '
+  recent_transaction: "Transactions r\xE9centes "
+  reseller: Revendeur
+  sent_sms: "SMS envoy\xE9 "
+  services_cost: "Co\xFBt des services "
+  sms_inbound: 'SMS entrants '
+  sms_outbound: 'SMS sortant '
+  status: 'Statut '
+  summary: "R\xE9sum\xE9 "
+  suspended_sms: 'SMS suspendu '
+  total_sms_cmp: 'Total des campagnes SMS '
+  total_sms_msg: 'Total des SMS '
+  total_sub: 'Subsactes totales '
+  total_ussd_cmp: 'Total des campagnes USSD '
+  total_ussd_msg: 'Total des messages USSD '
+  total_voice_cmp: 'Campagnes vocales totales '
+  total_voice_msg: 'Messages vocaux totaux '
+  ussd_inbound: 'Inbound USSD '
+  ussd_outbound: 'Outbound USSD '
+  voice_inbound: 'Voix entrante '
+  voice_outbound: 'Voix sortante '
 Datatables:
-  copy: "\u0E04\u0E39\u0E48\u0E09\u0E1A\u0E31\u0E1A"
-  csv: CSV
-  empty_table: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\
-    \u0E17\u0E35\u0E48\u0E08\u0E30\u0E41\u0E2A\u0E14\u0E07"
-  entries: "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23"
-  excel: Excel
-  filtered: "\u0E01\u0E23\u0E2D\u0E07\u0E08\u0E32\u0E01"
-  first: "\u0E2D\u0E31\u0E19\u0E14\u0E31\u0E1A\u0E41\u0E23\u0E01"
-  last: "\u0E25\u0E48\u0E32\u0E2A\u0E38\u0E14"
-  loading: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E42\u0E2B\u0E25\u0E14"
-  next: "\u0E15\u0E48\u0E2D\u0E44\u0E1B"
-  of: "\u0E02\u0E2D\u0E07"
-  pdf: PDF
-  previous: "\u0E01\u0E48\u0E2D\u0E19\u0E2B\u0E19\u0E49\u0E32\u0E19\u0E35\u0E49"
-  print: "\u0E15\u0E31\u0E27\u0E1E\u0E34\u0E21\u0E1E\u0E4C"
-  processing: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E1B\u0E23\u0E30\u0E21\u0E27\u0E25\u0E1C\
-    \u0E25"
-  search: "\u0E04\u0E49\u0E19\u0E2B\u0E32"
-  show: "\u0E41\u0E2A\u0E14\u0E07"
-  showing: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E41\u0E2A\u0E14\u0E07"
-  to: "\u0E16\u0E36\u0E07"
-  zeroRecords: "\u0E44\u0E21\u0E48\u0E1E\u0E1A\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\
-    \u0E17\u0E35\u0E48\u0E15\u0E23\u0E07\u0E01\u0E31\u0E19"
+  copy: 'Copie '
+  csv: 'Csv '
+  empty_table: "Aucune entr\xE9e \xE0 montrer "
+  entries: "entr\xE9es "
+  excel: 'Exceller '
+  filtered: "Filtr\xE9 de "
+  first: 'D''abord '
+  last: 'Durer '
+  loading: 'Chargement '
+  next: Suivant
+  of: 'de '
+  pdf: 'Pdf '
+  previous: "Pr\xE9c\xE9dent"
+  print: 'Imprimer '
+  processing: 'Traitement '
+  search: 'Rechercher '
+  show: 'spectacle '
+  showing: 'Affichage '
+  to: "\xE0 "
+  zeroRecords: "Aucun enregistrements correspondants trouv\xE9s "
 Error_msg:
-  campaign_not_created: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D\u0E44\u0E21\u0E48\u0E44\
-    \u0E14\u0E49\u0E2A\u0E23\u0E49\u0E32\u0E07"
-  contacts_not_imported: "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E21\u0E48\
-    \u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E44\
-    \u0E14\u0E49"
-  err_msg1: "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E08\u0E31\u0E14\
-    \u0E01\u0E32\u0E23\u0E44\u0E14\u0E49"
-  err_msg2: "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E08\u0E31\u0E14\
-    \u0E01\u0E32\u0E23\u0E08\u0E33\u0E19\u0E27\u0E19\u0E17\u0E31\u0E49\u0E07\u0E2B\
-    \u0E21\u0E14\u0E19\u0E35\u0E49\u0E44\u0E14\u0E49"
-  err_msg3: "\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\
-    \u0E16\u0E27\u0E48\u0E32\u0E07\u0E44\u0E14\u0E49"
-  err_msg4: "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E1E\u0E34\
-    \u0E48\u0E21 number"
-  exist_in_other_list: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E19\u0E35\u0E49\
-    \u0E21\u0E35\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E23\u0E32\u0E22\u0E01\u0E32\
-    \u0E23\u0E2D\u0E22\u0E39\u0E48\u0E41\u0E25\u0E49\u0E27"
-  name_exists: "\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E43\u0E0A\u0E49\u0E07\
-    \u0E32\u0E19\u0E21\u0E35\u0E2D\u0E22\u0E39\u0E48\u0E41\u0E25\u0E49\u0E27"
-  numbers_exist: "\u0E08\u0E33\u0E19\u0E27\u0E19\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\
-    \u0E07\u0E32\u0E19\u0E21\u0E35\u0E2D\u0E22\u0E39\u0E48\u0E41\u0E25\u0E49\u0E27"
-  select_contacts: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\
-    \u0E49\u0E2D\u0E22\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E23\u0E32\u0E22\u0E0A\u0E37\
-    \u0E48\u0E2D"
+  campaign_not_created: "Campagne non cr\xE9\xE9e "
+  contacts_not_imported: "Les contacts ne peuvent pas \xEAtre import\xE9s "
+  err_msg1: "Ne peut pas g\xE9rer cette op\xE9ration "
+  err_msg2: "Impossible de g\xE9n\xE9rer tous ces num\xE9ros "
+  err_msg3: "Le nom ne peut pas \xEAtre vide "
+  err_msg4: 'Impossible d''ajouter un nombre '
+  exist_in_other_list: 'Nombre Quitter dans la liste '
+  name_exists: "Le nom existe d\xE9j\xE0 "
+  numbers_exist: "Les chiffres existent d\xE9j\xE0 "
+  select_contacts: "S\xE9lectionnez au moins un contact "
 Form:
-  enter_cmp_message: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E23\u0E30\u0E1A\u0E38\u0E02\
-    \u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-  enter_cmp_name: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E0A\u0E37\u0E48\u0E2D\u0E41\u0E04\
-    \u0E21\u0E40\u0E1B\u0E0D"
-  enter_phone_number: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E23\u0E30\u0E1A\u0E38\u0E40\
-    \u0E1A\u0E2D\u0E23\u0E4C\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C"
-  file: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E1F\u0E25\u0E4C\u0E17\u0E35\u0E48\u0E08\
-    \u0E30\u0E17\u0E33\u0E01\u0E32\u0E23\u0E23\u0E31\u0E19"
-  language: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E29\u0E32"
-  message: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E23\u0E30\u0E1A\u0E38\u0E02\u0E49\u0E2D\
-    \u0E04\u0E27\u0E32\u0E21\u0E17\u0E35\u0E48\u0E08\u0E30\u0E2A\u0E48\u0E07"
-  name: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E0A\u0E37\u0E48\u0E2D\u0E41\u0E04\u0E21\u0E40\
-    \u0E1B\u0E0D"
-  recipients: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E23\u0E30\u0E1A\u0E38\u0E1C\u0E39\u0E49\
-    \u0E23\u0E31\u0E1A"
-  script: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2A\u0E04\u0E23\u0E34\u0E1B\u0E15\u0E4C\
-    \u0E17\u0E35\u0E48\u0E08\u0E30\u0E17\u0E33\u0E01\u0E32\u0E23\u0E23\u0E31\u0E19"
-  senderId: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E23\u0E30\u0E1A\u0E38 Sender ID"
+  enter_cmp_message: "S'il vous pla\xEEt entrer un message "
+  enter_cmp_name: "S'il vous pla\xEEt entrer un nom de campagne "
+  enter_phone_number: "S'il vous pla\xEEt entrer un num\xE9ro de t\xE9l\xE9phone "
+  file: "Veuillez choisir le fichier \xE0 ex\xE9cuter "
+  language: 'Entrer dans la langue '
+  message: "S'il vous pla\xEEt remplir le message \xE0 envoyer "
+  name: "S'il vous pla\xEEt entrer le nom de la campagne "
+  recipients: "Veuillez entrer les destinataires de la virgule s\xE9par\xE9e si plusieurs "
+  script: "Veuillez entrer le nom du script \xE0 ex\xE9cuter "
+  senderId: "Veuillez entrer votre identifiant de l'exp\xE9diteur "
 Language:
-  English: English
-  French: French
-  Thai: "\u0E44\u0E17\u0E22"
+  English: Anglais
+  French: "fran\xE7ais "
+  Thai: "tha\xEFlandais "
 Login:
-  account_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E1C\u0E39\
-    \u0E49\u0E43\u0E0A\u0E49"
-  company: "\u0E0A\u0E37\u0E48\u0E2D\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17"
-  login: "\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E43\u0E0A\u0E49"
-  no_account: "\u0E04\u0E38\u0E13\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\
-    \u0E25\u0E07\u0E17\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E19?"
-  pwd: "\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19"
-  register: "\u0E25\u0E07\u0E17\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E19"
-  session_expired: "\u0E40\u0E0B\u0E2A\u0E0A\u0E31\u0E19\u0E2B\u0E21\u0E14\u0E2D\u0E32\
-    \u0E22\u0E38"
-  signin: "\u0E25\u0E07\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E02\u0E49\u0E32\u0E43\u0E0A\
-    \u0E49"
-  signup: "\u0E25\u0E07\u0E17\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E19\u0E43\u0E2B\u0E21\
-    \u0E48"
-  title_form: "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A\
-    \ _char_vyzyo_contact_char_"
+  account_name: 'Nom du compte '
+  company: 'Nom de la compagnie '
+  login: 'Connexion '
+  no_account: 'Vous n''avez pas de compte? '
+  pwd: 'Mot de passe '
+  register: "Cr\xE9er un compte "
+  session_expired: "La session a expir\xE9 "
+  signin: 'S''identifier '
+  signup: 'S''inscrire '
+  title_form: "Connectez-vous \xE0 _CHAR_VYZYOO_CONTACT_CHAR_ "
 Media:
-  SMS: SMS
-  USSD: USSD
-  Voice: Voice
+  SMS: 'SMS '
+  USSD: 'USSD '
+  Voice: 'Voix '
 Navbar:
-  admin: "\u0E41\u0E2D\u0E14\u0E21\u0E34\u0E19"
-  balance: "\u0E22\u0E2D\u0E14\u0E40\u0E07\u0E34\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\
-    \u0E13"
-  billing: "\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19"
-  contacts: "\u0E08\u0E31\u0E14\u0E01\u0E32\u0E23\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\
-    \u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  dashboard: "\u0E41\u0E14\u0E0A\u0E1A\u0E2D\u0E23\u0E4C\u0E14"
-  documentation: "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23\u0E15\u0E48\u0E32\u0E07\u0E46"
-  files: "\u0E44\u0E1F\u0E25\u0E4C\u0E21\u0E35\u0E40\u0E14\u0E35\u0E22"
-  manuals: "\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\
-    \u0E07\u0E32\u0E19"
-  monitoring: "\u0E08\u0E2D\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25\u0E15\u0E48\u0E32\u0E07\
-    \u0E46"
-  privacy_policy: "\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E04\u0E27\u0E32\u0E21\u0E40\
-    \u0E1B\u0E47\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E15\u0E31\u0E27"
-  rates: "\u0E41\u0E2A\u0E14\u0E07\u0E23\u0E32\u0E04\u0E32"
-  reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19"
-  services: "\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23"
-  sms_reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19 SMS"
-  subaccounts: "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E22\u0E48\u0E2D\u0E22"
-  support: "\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E0A\u0E48\
-    \u0E27\u0E22\u0E40\u0E2B\u0E25\u0E37\u0E2D"
-  terms_conditions: "\u0E02\u0E49\u0E2D\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E41\u0E25\u0E30\
-    \u0E40\u0E07\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E02"
-  ussd_reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19 USSD"
-  voice_reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19 Voice"
+  admin: 'Admin '
+  balance: "\xC9quilibre "
+  billing: 'Balance et paiements '
+  contacts: 'Gestion des contacts '
+  dashboard: 'Tableau de bord '
+  documentation: 'Documentation '
+  files: "Fichiers multim\xE9dia "
+  manuals: 'Manuels '
+  monitoring: "Surveillance des activit\xE9s "
+  privacy_policy: "Politique de confidentialit\xE9 "
+  rates: 'Les taux '
+  reports: 'Rapports '
+  services: 'Prestations de service '
+  sms_reports: 'Rapports SMS '
+  subaccounts: 'Sous-comptes '
+  support: 'Support '
+  terms_conditions: 'Termes et conditions '
+  ussd_reports: 'Rapports USSD '
+  voice_reports: 'Rapports vocaux '
 Notification:
-  notif_text: "\u0E14\u0E39\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E41\u0E08\u0E49\u0E07\
-    \u0E40\u0E15\u0E37\u0E2D\u0E19\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
-  notifications: "\u0E41\u0E08\u0E49\u0E07\u0E40\u0E15\u0E37\u0E2D\u0E19"
+  notif_text: 'Voir toutes les notifications '
+  notifications: 'notifications '
 Payment:
-  email_body_canceled: "\u0E40\u0E23\u0E35\u0E22\u0E19 \u0E04\u0E38\u0E13 {firstname}\
-    \ {lastname}, <br>\n\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E40\u0E07\
-    \u0E34\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E15\u0E32\u0E21\u0E40\u0E25\
-    \u0E02\u0E17\u0E35\u0E48\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07{reference}\
-    \ \u0E16\u0E39\u0E01\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01. <br>\n\u0E14\u0E31\u0E07\
-    \u0E19\u0E31\u0E49\u0E19, \u0E22\u0E2D\u0E14\u0E40\u0E07\u0E34\u0E19\u0E04\u0E07\
-    \u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\
-    \u0E44\u0E21\u0E48\u0E21\u0E35\u0E01\u0E32\u0E23\u0E40\u0E1B\u0E25\u0E35\u0E48\
-    \u0E22\u0E19\u0E41\u0E1B\u0E25\u0E07.. <br>\n\u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\
-    \u0E17\u0E23\u0E32\u0E1A\u0E27\u0E48\u0E32\u0E21\u0E35\u0E02\u0E49\u0E2D\u0E1C\
-    \u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14\u0E43\u0E14 \u0E46 \u0E2B\u0E23\u0E37\u0E2D\
-    \u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\
-    \u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21 \u0E42\u0E1B\u0E23\u0E14\
-    \u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\
-    \u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E1C\u0E48\u0E32\u0E19\
-    \u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 \u0E41\u0E25\
-    \u0E30\u0E42\u0E1E\u0E2A\u0E15\u0E4C\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\
-    \u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\
-    \u0E22\u0E14\u0E15\u0E32\u0E21\u0E04\u0E33\u0E02\u0E2D\u0E02\u0E2D\u0E07\u0E04\
-    \u0E38\u0E13. <br>\n\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E43\
-    \u0E0A\u0E49\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23 _char_vyzyo_contact_char_. <br>\n\
-    \n\u0E02\u0E2D\u0E41\u0E2A\u0E14\u0E07\u0E04\u0E27\u0E32\u0E21\u0E19\u0E31\u0E1A\
-    \u0E16\u0E37\u0E2D <br>\n\u0E1D\u0E48\u0E32\u0E22\u0E01\u0E32\u0E23\u0E40\u0E07\
-    \u0E34\u0E19 _char_vyzyo_contact_char_ "
-  email_body_confirmation: "\u0E40\u0E23\u0E35\u0E22\u0E19 \u0E04\u0E38\u0E13{firstname}\
-    \ {lastname}, <br>\n\u0E17\u0E32\u0E07\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\u0E44\
-    \u0E14\u0E49\u0E23\u0E31\u0E1A\u0E40\u0E07\u0E34\u0E19\u0E15\u0E32\u0E21\u0E40\
-    \u0E25\u0E02\u0E17\u0E35\u0E48\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07 {reference}\
-    \ \u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E25\u0E49\u0E27\
-    \ <br>\n\u0E08\u0E33\u0E19\u0E27\u0E19\u0E40\u0E07\u0E34\u0E19 {amount} \u0E44\
-    \u0E14\u0E49\u0E42\u0E2D\u0E19\u0E40\u0E02\u0E49\u0E32\u0E1A\u0E31\u0E0D\u0E0A\
-    \u0E35 _char_vyzyo_contact_char_ \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E1E\u0E23\
-    \u0E49\u0E2D\u0E21\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19 . <br>\n\u0E02\u0E2D\u0E1A\
-    \u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E1A\u0E23\u0E34\u0E01\
-    \u0E32\u0E23 _char_vyzyo_contact_char_  <br>\n\u0E02\u0E2D\u0E41\u0E2A\u0E14\u0E07\
-    \u0E04\u0E27\u0E32\u0E21\u0E19\u0E31\u0E1A\u0E16\u0E37\u0E2D  <br>\n\u0E1D\u0E48\
-    \u0E32\u0E22\u0E01\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19 _char_vyzyo_contact_char_ "
-  email_body_pending: "<div> \u0E40\u0E23\u0E35\u0E22\u0E19 \u0E04\u0E38\u0E13 {firstname}\
-    \ {lastname}, <br> \u0E40\u0E21\u0E37\u0E48\u0E2D\u0E27\u0E31\u0E19\u0E17\u0E35\
-    \u0E48 {request date} \u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E17\u0E33\u0E01\u0E32\
-    \u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\u0E15\u0E32\u0E21\u0E2B\
-    \u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07\
-    \ {reference} \u0E08\u0E33\u0E19\u0E27\u0E19\u0E40\u0E07\u0E34\u0E19 {amount}.\u0E08\
-    \u0E19\u0E16\u0E36\u0E07\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49 \u0E1A\u0E23\u0E34\
-    \u0E29\u0E31\u0E17\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E23\
-    \u0E31\u0E1A\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\
-    \u0E08\u0E32\u0E01\u0E04\u0E38\u0E13 <br> \u0E14\u0E49\u0E27\u0E22\u0E40\u0E2B\
-    \u0E15\u0E38\u0E1C\u0E25\u0E14\u0E49\u0E32\u0E19\u0E04\u0E27\u0E32\u0E21\u0E1B\
-    \u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22 \u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\
-    \u0E40\u0E07\u0E34\u0E19\u0E43\u0E14 \u0E46 \u0E19\u0E32\u0E19\u0E01\u0E27\u0E48\
-    \u0E32 30 \u0E27\u0E31\u0E19 \u0E08\u0E30\u0E16\u0E39\u0E01\u0E1B\u0E0F\u0E34\u0E40\
-    \u0E2A\u0E18 \u0E41\u0E25\u0E30 \u0E22\u0E01\u0E40\u0E25\u0E34\u0E01\u0E2D\u0E31\
-    \u0E15\u0E42\u0E19\u0E21\u0E31\u0E15\u0E34 \u0E42\u0E14\u0E22 \u0E1D\u0E48\u0E32\
-    \u0E22\u0E01\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19\u0E02\u0E2D\u0E07\u0E40\u0E23\
-    \u0E32. <br> \u0E01\u0E23\u0E38\u0E13\u0E32\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\
-    \u0E34\u0E19\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\
-    \u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E1A\u0E31\u0E0D\u0E0A\u0E35 _char_vyzyo_contact_char_\
-    \ \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E15\u0E48\
-    \u0E2D\u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07. <br> \u0E40\u0E1E\u0E37\u0E48\u0E2D\
-    \u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\u0E2D\u0E35\
-    \u0E40\u0E21\u0E25\u0E19\u0E35\u0E49 \u0E44\u0E21\u0E48\u0E23\u0E27\u0E21\u0E16\
-    \u0E36\u0E07\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E1C\u0E39\u0E49\u0E23\u0E31\
-    \u0E1A\u0E1C\u0E25\u0E1B\u0E23\u0E30\u0E42\u0E22\u0E0A\u0E19\u0E4C\u0E2A\u0E33\
-    \u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E42\u0E2D\u0E19 \u0E40\u0E23\u0E32\
-    \u0E41\u0E19\u0E30\u0E19\u0E33\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E25\u0E07\
-    \u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E02\u0E49\u0E32\u0E43\u0E0A\u0E49\u0E1A\u0E31\
-    \u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E40\u0E1E\u0E37\u0E48\
-    \u0E2D\u0E14\u0E39\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\
-    \u0E01\u0E32\u0E23\u0E42\u0E2D\u0E19. <br> \u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\
-    \u0E08\u0E30\u0E17\u0E33\u0E01\u0E32\u0E23\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E22\
-    \u0E2D\u0E14\u0E40\u0E07\u0E34\u0E19\u0E43\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35\
-    \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E17\u0E31\u0E19\u0E17\u0E35\u0E2B\u0E25\
-    \u0E31\u0E07\u0E08\u0E32\u0E01\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E01\u0E32\
-    \u0E23\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E22\u0E2D\u0E14\u0E08\u0E32\u0E01\
-    \u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E31\u0E0D\u0E0A\u0E35. <br> \u0E02\u0E2D\u0E1A\
-    \u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E1A\u0E23\u0E34\u0E01\
-    \u0E32\u0E23 _char_vyzyo_contact_char_. <br> \u0E02\u0E2D\u0E41\u0E2A\u0E14\u0E07\
-    \u0E04\u0E27\u0E32\u0E21\u0E19\u0E31\u0E1A\u0E16\u0E37\u0E2D <br> \u0E1D\u0E48\
-    \u0E32\u0E22\u0E01\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19 _char_vyzyo_contact_char_</div>"
-  email_body_reject: "\u0E40\u0E23\u0E35\u0E22\u0E19 \u0E04\u0E38\u0E13 {firstname}\
-    \ {lastname}, <br>\n\n\u0E17\u0E32\u0E07\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\u0E44\
-    \u0E21\u0E48\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E40\u0E07\u0E34\u0E19\u0E15\
-    \u0E32\u0E21\u0E40\u0E25\u0E02\u0E17\u0E35\u0E48\u0E2D\u0E49\u0E32\u0E07\u0E2D\
-    \u0E34\u0E07{reference}. <br>\n\u0E14\u0E31\u0E07\u0E19\u0E31\u0E49\u0E19, \u0E22\
-    \u0E2D\u0E14\u0E40\u0E07\u0E34\u0E19\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D\
-    \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E44\u0E21\u0E48\u0E21\u0E35\
-    \u0E01\u0E32\u0E23\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E41\u0E1B\u0E25\
-    \u0E07. <br>\n\n\u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E17\u0E23\u0E32\u0E1A\u0E27\
-    \u0E48\u0E32\u0E21\u0E35\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\
-    \u0E14\u0E43\u0E14 \u0E46 \u0E2B\u0E23\u0E37\u0E2D\u0E15\u0E49\u0E2D\u0E07\u0E01\
-    \u0E32\u0E23\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E40\u0E1E\u0E34\u0E48\u0E21\
-    \u0E40\u0E15\u0E34\u0E21 \u0E42\u0E1B\u0E23\u0E14\u0E15\u0E34\u0E14\u0E15\u0E48\
-    \u0E2D\u0E1D\u0E48\u0E32\u0E22\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E02\u0E2D\
-    \u0E07\u0E40\u0E23\u0E32\u0E1C\u0E48\u0E32\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35\
-    \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 \u0E41\u0E25\u0E30\u0E42\u0E1E\u0E2A\u0E15\
-    \u0E4C\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1E\u0E23\u0E49\u0E2D\u0E21\
-    \u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E15\u0E32\u0E21\
-    \u0E04\u0E33\u0E02\u0E2D\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 <br> \u0E02\u0E2D\
-    \u0E1A\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E1A\u0E23\u0E34\
-    \u0E01\u0E32\u0E23 _char_vyzyo_contact_char_. <br>\n\n\u0E02\u0E2D\u0E41\u0E2A\
-    \u0E14\u0E07\u0E04\u0E27\u0E32\u0E21\u0E19\u0E31\u0E1A\u0E16\u0E37\u0E2D <br>\n\
-    \n\n\u0E1D\u0E48\u0E32\u0E22\u0E01\u0E32\u0E23\u0E40\u0E07\u0E34\u0E19 _char_vyzyo_contact_char_"
-  email_body_request: "<div>\n\u0E40\u0E23\u0E35\u0E22\u0E19 \u0E04\u0E38\u0E13 {firstname}\
-    \ {lastname}, \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\
-    \u0E1A\u0E01\u0E32\u0E23\u0E23\u0E49\u0E2D\u0E07\u0E02\u0E2D\u0E01\u0E32\u0E23\
-    \u0E42\u0E2D\u0E19\u0E40\u0E07\u0E34\u0E19\u0E1C\u0E48\u0E32\u0E19\u0E18\u0E19\
-    \u0E32\u0E04\u0E32\u0E23. <br> <p>\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E33\u0E40\
-    \u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D, \u0E01\u0E23\u0E38\u0E13\
-    \u0E32\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\u0E21\u0E32\u0E22\u0E31\
-    \u0E07\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\
-    \ \u0E04\u0E38\u0E13\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E15\u0E23\u0E27\u0E08\
-    \u0E2A\u0E2D\u0E1A\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\
-    \u0E01\u0E32\u0E23\u0E42\u0E2D\u0E19\u0E40\u0E07\u0E34\u0E19\u0E1C\u0E48\u0E32\
-    \u0E19\u0E17\u0E32\u0E07\u0E18\u0E19\u0E32\u0E04\u0E32\u0E23\u0E17\u0E32\u0E07\
-    \u0E14\u0E49\u0E32\u0E19\u0E25\u0E48\u0E32\u0E07:</p> <br> \u0E02\u0E49\u0E2D\u0E21\
-    \u0E39\u0E25\u0E19\u0E35\u0E49\u0E08\u0E30\u0E16\u0E39\u0E01\u0E2A\u0E48\u0E07\
-    \u0E40\u0E1E\u0E35\u0E22\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07\u0E40\u0E14\u0E35\
-    \u0E22\u0E27\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\
-    \u0E2D\u0E14\u0E20\u0E31\u0E22 \u0E04\u0E38\u0E13\u0E08\u0E30\u0E44\u0E21\u0E48\
-    \u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E40\u0E21\u0E25\u0E4C\u0E40\u0E1E\u0E34\
-    \u0E48\u0E21\u0E40\u0E15\u0E34\u0E21\u0E2D\u0E37\u0E48\u0E19\u0E46 \u0E2D\u0E35\
-    \u0E01\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\
-    \u0E17\u0E33\u0E01\u0E32\u0E23\u0E18\u0E38\u0E23\u0E01\u0E23\u0E23\u0E21\u0E01\
-    \u0E32\u0E23\u0E42\u0E2D\u0E19\u0E40\u0E07\u0E34\u0E19\u0E1C\u0E48\u0E32\u0E19\
-    \u0E18\u0E19\u0E32\u0E04\u0E32\u0E23: <br> \u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\
-    \u0E49\u0E23\u0E31\u0E1A\u0E40\u0E07\u0E34\u0E19:{beneficiary_name} <br> \u0E02\
-    \u0E37\u0E48\u0E2D\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E18\u0E19\u0E32\u0E04\u0E32\
-    \u0E23 :{beneficiary_bank_name} <br> \u0E40\u0E25\u0E02\u0E17\u0E35\u0E48\u0E1A\
-    \u0E31\u0E0D\u0E0A\u0E35\u0E18\u0E19\u0E32\u0E04\u0E32\u0E23 :{beneficiary_account_number}\
-    \ <br> \u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E2D\u0E49\u0E32\u0E07\u0E2D\
-    \u0E34\u0E07 : {reference} <br> \u0E08\u0E33\u0E19\u0E27\u0E19\u0E40\u0E07\u0E34\
-    \u0E19:{amount} <br> \u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17\u0E08\u0E30\u0E17\u0E33\
-    \u0E01\u0E32\u0E23\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E22\u0E2D\u0E14\u0E40\u0E07\
-    \u0E34\u0E19\u0E43\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\
-    \u0E38\u0E13\u0E17\u0E31\u0E19\u0E17\u0E35\u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\
-    \u0E01\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E22\u0E37\u0E19\
-    \u0E22\u0E31\u0E19\u0E22\u0E2D\u0E14\u0E08\u0E32\u0E01\u0E1D\u0E48\u0E32\u0E22\
-    \u0E1A\u0E31\u0E0D\u0E0A\u0E35 <br> \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\
-    \u0E35\u0E48\u0E43\u0E0A\u0E49\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23 _char_vyzyo_contact_char_\
-    \ <br> \u0E02\u0E2D\u0E41\u0E2A\u0E14\u0E07\u0E04\u0E27\u0E32\u0E21\u0E19\u0E31\
-    \u0E1A\u0E16\u0E37\u0E2D <br> \u0E1D\u0E48\u0E32\u0E22\u0E01\u0E32\u0E23\u0E40\
-    \u0E07\u0E34\u0E19 _char_vyzyo_contact_char_\n</div>"
-  email_status_received: "\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A"
-  email_status_rejected: "\u0E1B\u0E0F\u0E34\u0E40\u0E2A\u0E18"
-  email_status_request: "\u0E04\u0E33\u0E02\u0E2D"
-  email_subject: "_char_vyzyo_contact_char_ - \u0E40\u0E15\u0E34\u0E21\u0E40\u0E07\
-    \u0E34\u0E19 {status} - No. {reference}"
+  email_body_canceled: "Salut {FirstName} {Nom}, <br>  Votre demande de fonds de charge\
+    \ avec r\xE9f\xE9rence {r\xE9f\xE9rence} a \xE9t\xE9 annul\xE9e. de <br>  Par\
+    \ cons\xE9quent, votre solde reste inchang\xE9. de <br>  Si vous sentez qu'il\
+    \ y a eu une erreur et de toute autre exigence, veuillez contacter notre support\
+    \ via votre compte et publier un message avec des d\xE9tails sur votre demande.\
+    \ de <br>  Merci d'avoir utilis\xE9 notre service %vyzyo_contact% Service. de\
+    \ <br>  Cordialement <br>  _CHAR_VYZYOO_CONTACT_CHAR_ \xC9quipe de finance "
+  email_body_confirmation: "Salut {FirstName} {Nom}, <br>  Les fonds de la demande\
+    \ de fonds de charge avec r\xE9f\xE9rence {r\xE9f\xE9rence} ont \xE9t\xE9 re\xE7\
+    us. de <br>  Le {montant} a \xE9t\xE9 cr\xE9dit\xE9 sur votre compte %vyzyo_contact%\
+    \ et pr\xEAt \xE0 \xEAtre utilis\xE9. de <br>  Merci d'avoir utilis\xE9 notre\
+    \ service %vyzyo_contact% Service. de <br>  Cordialement <br>  _CHAR_VYZYOO_CONTACT_CHAR_\
+    \ \xC9quipe de finance "
+  email_body_pending: "<div> hi {pr\xE9nom} {lastname}, <br> \xE0 la date {Date de\
+    \ demande}, vous avez soumis une demande de fonds de charge sous le num\xE9ro\
+    \ de r\xE9f\xE9rence {r\xE9f\xE9rence} pour un montant de {montant}. Jusqu'\xE0\
+    \ aujourd'hui, votre paiement n'a pas encore \xE9t\xE9 re\xE7u. <br> Pour des\
+    \ raisons de s\xE9curit\xE9, toute demande de paiement en attente de plus de {30?}\
+    \ jours est automatiquement rejet\xE9e et annul\xE9e par notre \xE9quipe de financement.\
+    \ <br> Nous vous invitons \xE0 proc\xE9der \xE0 ce paiement pour \xE9viter de\
+    \ perdre cette opportunit\xE9 pour charger votre compte %vyzyo_contact%. <br>\
+    \ Pour des raisons de s\xE9curit\xE9, cet email n'inclut pas les informations\
+    \ b\xE9n\xE9ficiaires du transfert. Nous vous conseillons de vous connecter \xE0\
+    \ votre compte pour afficher les d\xE9tails de transfert. <br> Une fois que notre\
+    \ \xE9quipe comptable confirme que vos fonds ont frapp\xE9 notre compte bancaire,\
+    \ nous mettrons imm\xE9diatement \xE0 jour le solde de votre compte. <br> Merci\
+    \ d'avoir utilis\xE9 notre service %vyzyo_contact% Service. <br> <br> <br> <br>\
+    \ _Char_VYZYOO_CONTACT_CHAR_ TEAM FINANCE </ DIV> "
+  email_body_reject: "Salut {FirstName} {Nom}, <br>  La demande de fonds de charge\
+    \ avec r\xE9f\xE9rence {r\xE9f\xE9rence} n'a pas \xE9t\xE9 accept\xE9e par notre\
+    \ service financier. de <br>  Par cons\xE9quent, votre solde reste inchang\xE9\
+    . de <br>  Si vous pensez qu'il y a eu une erreur ou de toute autre exigence,\
+    \ veuillez contacter notre support via votre compte et publier un message avec\
+    \ des d\xE9tails sur votre demande. <br> Merci d'avoir utilis\xE9 notre service\
+    \ %vyzyo_contact% Service. de <br>  Cordialement <br>  _CHAR_VYZYOO_CONTACT_CHAR_\
+    \ \xC9quipe de finance "
+  email_body_request: "<div>  Bonjour {FirstName} {Nom}, merci pour votre demande\
+    \ de virement bancaire. <b> <p> Pour continuer, vous devrez envoyer le montant\
+    \ demand\xE9 au compte de notre soci\xE9t\xE9. Vous pouvez trouver ci-dessous\
+    \ les d\xE9tails de la banque importants pour traiter le paiement: </ p> <br>\
+    \ (Cette information n'est envoy\xE9e qu'une seule fois. Pour des raisons de s\xE9\
+    curit\xE9, vous ne recevrez jamais d'autres courriels contenant ces informations\
+    \ et demandant d'autres transferts avec des coordonn\xE9es bancaires) : <br> Nom\
+    \ du b\xE9n\xE9ficiaire: {B\xE9n\xE9ficiaire_Name} <br> Nom de la banque: {B\xE9\
+    n\xE9ficiaire_Bank_Name} Num\xE9ro de compte du b\xE9n\xE9ficiaire: {b\xE9n\xE9\
+    ficiaire_account_number} <br> R\xE9f\xE9rence: {R\xE9f\xE9rence} Montant: {montant}\
+    \ <br> Notre \xE9quipe comptable confirme que vos fonds ont frapp\xE9 notre compte\
+    \ bancaire, nous mettrons imm\xE9diatement \xE0 jour le solde de votre compte.\
+    \ <br> Merci d'avoir utilis\xE9 notre service %vyzyo_contact% Service. <br> Regards\
+    \ <br> _Char_VYZYOO_CONTACT_CHAR_ TEAM FINANCE  </ div> "
+  email_status_received: "re\xE7u"
+  email_status_rejected: "rejet\xE9"
+  email_status_request: 'demander '
+  email_subject: "_CHAR_VYZYOO_CONTACT_CHAR_ - Fonds de charge {Statut} - Non. {R\xE9\
+    f\xE9rence} "
 Profile:
-  account: "\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E43\u0E0A\u0E49\u0E1A\u0E31\
-    \u0E0D\u0E0A\u0E35"
-  account_information: "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E1C\u0E39\u0E49\u0E43\
-    \u0E0A\u0E49\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  account_media: "\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E1A\u0E23\u0E34\u0E01\u0E32\
-    \u0E23"
-  account_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E43\u0E0A\u0E49\u0E1A\
-    \u0E31\u0E0D\u0E0A\u0E35"
-  account_security: "\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22\
-    \u0E1C\u0E39\u0E49\u0E43\u0E0A\u0E49\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  account_settings: "\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E15\u0E33\u0E41\u0E2B\
-    \u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E15\u0E31\u0E49\u0E07"
-  account_type: "\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E1C\u0E39\u0E49\u0E43\u0E0A\
-    \u0E49\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  address: "\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48"
-  birth_date: "\u0E27\u0E31\u0E19\u0E40\u0E14\u0E37\u0E2D\u0E19\u0E1B\u0E35\u0E40\u0E01\
-    \u0E34\u0E14"
-  birthdate: "\u0E27\u0E31\u0E19\u0E40\u0E01\u0E34\u0E14"
-  btn_update: "\u0E2D\u0E31\u0E1B\u0E40\u0E14\u0E15"
-  choose_file: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E1F\u0E25\u0E4C"
-  city: "\u0E40\u0E21\u0E37\u0E2D\u0E07"
-  color: "\u0E2A\u0E35"
-  company: "\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17"
-  country: "\u0E1B\u0E23\u0E30\u0E40\u0E17\u0E28"
-  currency: "\u0E2A\u0E01\u0E38\u0E25\u0E40\u0E07\u0E34\u0E19"
-  domain_name: "\u0E42\u0E14\u0E40\u0E21\u0E19\u0E40\u0E19\u0E21"
-  edit_contact: "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\
-    \u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  edit_profile: "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\
-    \u0E2D\u0E07\u0E09\u0E31\u0E19"
-  email: "\u0E2D\u0E35\u0E40\u0E21\u0E25\u0E4C"
-  enable: "\u0E2D\u0E19\u0E38\u0E0D\u0E32\u0E15\u0E34"
-  female: "\u0E2B\u0E0D\u0E34\u0E07"
-  firstname: "\u0E0A\u0E37\u0E48\u0E2D\u0E08\u0E23\u0E34\u0E07"
-  full_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E08\u0E23\u0E34\u0E07"
-  gender: "\u0E40\u0E1E\u0E28"
-  job_title: "\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E07\u0E32\u0E19"
-  language: "\u0E20\u0E32\u0E29\u0E32"
-  lastname: "\u0E19\u0E32\u0E21\u0E2A\u0E01\u0E38\u0E25"
-  male: "\u0E0A\u0E32\u0E22"
-  middlename: "\u0E0A\u0E37\u0E48\u0E2D\u0E01\u0E25\u0E32\u0E07"
-  msg_coming_soon: "\u0E40\u0E23\u0E47\u0E27\u0E46\u0E19\u0E35\u0E49"
-  msg_delete_contacts: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E25\u0E1A\u0E23\
-    \u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\
-    \u0E48\u0E2D?"
-  msg_implement_soon: "\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E48\u0E19\u0E19\
-    \u0E35\u0E49\u0E08\u0E30\u0E21\u0E35\u0E43\u0E19\u0E2D\u0E19\u0E32\u0E04\u0E15"
-  name: "\u0E0A\u0E37\u0E48\u0E2D"
-  new_contact: "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\
-    \u0E34\u0E14\u0E15\u0E48\u0E2D\u0E43\u0E2B\u0E21\u0E48"
-  notes: Notes
-  personal_information: "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E1C\u0E39\u0E49\u0E43\
-    \u0E0A\u0E49\u0E07\u0E32\u0E19"
-  phone_number: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E42\u0E17\u0E23\u0E28\
-    \u0E31\u0E1E\u0E17\u0E4C"
-  profile: "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E09\u0E31\u0E19"
-  time_zone: "\u0E40\u0E27\u0E25\u0E32"
-  used_services: "\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E16\u0E39\
-    \u0E01\u0E43\u0E0A\u0E49"
-  zip: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E44\u0E1B\u0E23\u0E29\u0E13\u0E35\
-    \u0E22\u0E4C"
+  account: 'Nom du compte '
+  account_information: 'Information sur le compte '
+  account_media: "M\xE9dia de compte "
+  account_name: 'Nom du compte '
+  account_security: "S\xE9curit\xE9 du compte "
+  account_settings: "Les param\xE8tres de localisation "
+  account_type: 'Type de compte '
+  address: 'Adresse '
+  birth_date: 'Date de naissance '
+  birthdate: 'Date de naissance '
+  btn_update: "Mettre \xE0 jour "
+  choose_file: 'Choisir le fichier '
+  city: 'Ville '
+  color: 'Couleur '
+  company: 'Compagnie '
+  country: 'Pays '
+  currency: 'Devise '
+  domain_name: 'Nom de domaine '
+  edit_contact: 'Modifier le contact '
+  edit_profile: 'Editer le profil '
+  email: 'E-mail '
+  enable: 'Activer '
+  female: 'Femelle '
+  firstname: "Pr\xE9nom "
+  full_name: "Nom et pr\xE9nom "
+  gender: 'Genre '
+  job_title: 'Titre d''emploi '
+  language: 'Langue '
+  lastname: 'Nom de famille '
+  male: "M\xE2le"
+  middlename: "Deuxi\xE8me nom "
+  msg_coming_soon: "Bient\xF4t disponible "
+  msg_delete_contacts: "\xCAtes-vous s\xFBr de vouloir supprimer les contacts s\xE9\
+    lectionn\xE9s? "
+  msg_implement_soon: "La fonctionnalit\xE9 sera mises en \u0153uvre bient\xF4t "
+  name: 'Nom '
+  new_contact: 'Nouveau contact '
+  notes: 'Remarques '
+  personal_information: 'Informations de l''utilisateur '
+  phone_number: "Num\xE9ro de t\xE9l\xE9phone "
+  profile: 'Mon profil '
+  time_zone: 'Fuseau horaire '
+  used_services: 'Services d''occasion '
+  zip: 'Code postal '
 Rates:
-  bucket: Bucket
-  country: "\u0E1B\u0E23\u0E30\u0E40\u0E17\u0E28"
-  prefix: Prefix
-  price: "\u0E23\u0E32\u0E04\u0E32"
-  rates: "\u0E41\u0E2A\u0E14\u0E07\u0E23\u0E32\u0E04\u0E32"
-  setup: "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32"
-  sms: SMS
-  sms_rates: "\u0E23\u0E32\u0E04\u0E32 SMS"
-  status: "\u0E2A\u0E16\u0E32\u0E19\u0E30"
-  ussd: USSD
-  voice: Voice
+  bucket: 'Baquet '
+  country: 'Pays '
+  prefix: "Pr\xE9fixe "
+  price: 'Prix '
+  rates: 'Les taux '
+  setup: 'mettre en place '
+  sms: 'SMS '
+  sms_rates: 'Tarifs SMS '
+  status: 'Statut '
+  ussd: 'USSD '
+  voice: 'Voix '
 Register:
-  msg_error1: "\u0E2D\u0E35\u0E40\u0E21\u0E25\u0E25\u0E4C\u0E19\u0E35\u0E49\u0E21\u0E35\
-    \u0E2D\u0E22\u0E39\u0E48\u0E41\u0E25\u0E49\u0E27\u0E43\u0E19\u0E23\u0E30\u0E1A\
-    \u0E1A"
-  msg_error2: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E0A\u0E37\u0E48\u0E2D\u0E1A\u0E23\u0E34\
-    \u0E29\u0E31\u0E17\u0E43\u0E2B\u0E21\u0E48"
-  msg_error3: "\u0E1A\u0E32\u0E07\u0E2A\u0E34\u0E48\u0E07\u0E1C\u0E34\u0E14\u0E1E\u0E25\
-    \u0E32\u0E14 \u0E42\u0E1B\u0E23\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D support"
-  msg_success: "\u0E04\u0E38\u0E13\u0E25\u0E07\u0E17\u0E30\u0E40\u0E1A\u0E35\u0E22\
-    \u0E19\u0E01\u0E31\u0E1A_char_vyzyo_contact_char_\u0E2A\u0E33\u0E40\u0E23\u0E47\
-    \u0E08, \u0E01\u0E23\u0E38\u0E13\u0E32\u0E40\u0E0A\u0E47\u0E04\u0E2D\u0E35\u0E40\
-    \u0E21\u0E25\u0E4C\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19"
+  msg_error1: "Ce courrier est d\xE9j\xE0 utilis\xE9 "
+  msg_error2: "Veuillez choisir un autre nom de soci\xE9t\xE9 "
+  msg_error3: "Quelque chose de mal est arriv\xE9, v\xE9rifiez le support "
+  msg_success: "Vous \xEAtes inscrit avec succ\xE8s \xE0 %vyzyo_contacttact%. Vous\
+    \ recevrez un email contenant vos informations d'identification sous peu. "
 Registration:
-  already_have_account: "\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E19\u0E35\u0E49\u0E21\u0E35\
-    \u0E2D\u0E22\u0E39\u0E48\u0E41\u0E25\u0E49\u0E27"
-  register_msg: "\u0E25\u0E07\u0E17\u0E30\u0E40\u0E1A\u0E35\u0E22\u0E19\u0E21\u0E32\
-    \u0E22\u0E31\u0E07 _char_vyzyo_contact_char_"
-  select_msg: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
+  already_have_account: "Vous avez d\xE9j\xE0 un compte "
+  register_msg: "Inscrivez-vous \xE0 %vyzyo_contact% "
+  select_msg: "S\xE9lectionnez un compte "
 Reports:
-  activity_reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E01\u0E32\u0E23\u0E14\u0E33\
-    \u0E40\u0E19\u0E34\u0E19\u0E07\u0E32\u0E19"
-  attempts: "\u0E04\u0E27\u0E32\u0E21\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21"
-  currency: "\u0E2A\u0E01\u0E38\u0E25\u0E40\u0E07\u0E34\u0E19"
-  debit: "\u0E40\u0E14\u0E1A\u0E34\u0E15"
-  delivery: "\u0E2A\u0E48\u0E07"
-  delivery_date: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E48\u0E07"
-  last_attempts: "\u0E04\u0E27\u0E32\u0E21\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E04\
-    \u0E23\u0E31\u0E49\u0E07\u0E25\u0E48\u0E32\u0E2A\u0E38\u0E14"
-  last_result: "\u0E1C\u0E25\u0E25\u0E31\u0E1E\u0E18\u0E4C\u0E2A\u0E38\u0E14\u0E17\
-    \u0E49\u0E32\u0E22"
-  messag_id: "\u0E23\u0E2B\u0E31\u0E2A\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-  network: "\u0E40\u0E04\u0E23\u0E37\u0E2D\u0E02\u0E48\u0E32\u0E22"
-  next_attempts: "\u0E04\u0E27\u0E32\u0E21\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E04\
-    \u0E23\u0E31\u0E49\u0E07\u0E15\u0E48\u0E2D\u0E44\u0E1B"
-  number: "\u0E40\u0E25\u0E02\u0E17\u0E35\u0E48"
-  parts: Parts
-  payment_history: "\u0E1B\u0E23\u0E30\u0E27\u0E31\u0E15\u0E34\u0E01\u0E32\u0E23\u0E0A\
-    \u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19"
-  recipient_number: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E1C\u0E39\u0E49\u0E23\
-    \u0E31\u0E1A"
-  reference: "\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07"
-  senderId: "\u0E44\u0E2D\u0E14\u0E35\u0E1C\u0E39\u0E49\u0E2A\u0E48\u0E07"
-  status: "\u0E2A\u0E16\u0E32\u0E19\u0E30"
-  web_traces: "\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E32\u0E21\u0E17\u0E32\u0E07\
-    \u0E40\u0E27\u0E47\u0E1A"
-  zone: "\u0E42\u0E0B\u0E19"
+  activity_reports: "Rapports d'activit\xE9 "
+  attempts: 'Tentatives '
+  currency: 'Devise '
+  debit: "D\xE9bit "
+  delivery: 'Livraison '
+  delivery_date: 'Date de livraison '
+  last_attempts: "Derni\xE8re tentative "
+  last_result: "Dernier r\xE9sultat "
+  messag_id: 'ID du message '
+  network: "R\xE9seau "
+  next_attempts: 'Prochaine tentative '
+  number: 'Nombre '
+  parts: "les pi\xE8ces "
+  payment_history: 'Historique de paiement '
+  recipient_number: "Num\xE9ro de destinataire "
+  reference: "R\xE9f\xE9rence "
+  senderId: 'Adolescent '
+  status: 'Statut '
+  web_traces: 'Traces Web '
+  zone: 'Zone '
 Services:
   Campaigns:
-    campaign: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D"
-    campaign_sms: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D SMS"
-    campaign_ussd: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D  USSD"
-    campaign_voice: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D Voice"
-    cmp_Action: "\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21"
-    cmp_done: "\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22"
-    cmp_end_date: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E34\u0E49\u0E19\u0E2A\
-      \u0E38\u0E14"
-    cmp_id: "\u0E44\u0E2D\u0E14\u0E35"
-    cmp_name: "\u0E0A\u0E37\u0E48\u0E2D"
-    cmp_sender: "\u0E44\u0E2D\u0E14\u0E35\u0E1C\u0E39\u0E49\u0E2A\u0E48\u0E07"
-    cmp_start_date: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E40\u0E23\u0E34\u0E48\u0E21\
-      \u0E15\u0E49\u0E19"
-    cmp_status: "\u0E2A\u0E16\u0E32\u0E19\u0E30"
-    cmp_todo: "\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21\u0E17\u0E35\u0E48\u0E08\u0E30\
-      \u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23"
-    cmp_type: "\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17"
-    create_sms_cmp: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D SMS \u0E43\u0E2B\u0E21\u0E48"
-    create_ussd_cmp: "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E41\u0E04\u0E21\u0E40\u0E1B\
-      \u0E0D USSD"
-    create_voice_cmp: "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E41\u0E04\u0E21\u0E40\u0E1B\
-      \u0E0D Voice"
-    details: "\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14"
-    sms_cmp_reports_done: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19 \u0E41\u0E04\u0E21\
-      \u0E40\u0E1B\u0E0D SMS \u0E17\u0E35\u0E48\u0E2A\u0E48\u0E07\u0E40\u0E23\u0E35\
-      \u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22"
-    sms_cmp_reports_todo: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19 \u0E41\u0E04\u0E21\
-      \u0E40\u0E1B\u0E0D SMS \u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33"
-    title_activate_cmp: "\u0E42\u0E1B\u0E23\u0E14\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\
-      \u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E40\u0E1E\u0E37\u0E48\
-      \u0E2D\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E41\u0E04\
-      \u0E21\u0E40\u0E1B\u0E0D"
-    title_delete_cmp: "\u0E42\u0E1B\u0E23\u0E14\u0E2B\u0E22\u0E38\u0E14\u0E41\u0E04\
-      \u0E21\u0E40\u0E1B\u0E0D\u0E01\u0E48\u0E2D\u0E19\u0E17\u0E35\u0E48\u0E08\u0E30\
-      \u0E25\u0E1A"
+    campaign: 'Campagne '
+    campaign_sms: 'Campagnes SMS '
+    campaign_ussd: 'Campagnes USSD '
+    campaign_voice: 'Campagnes vocales '
+    cmp_Action: 'action '
+    cmp_done: 'Fait '
+    cmp_end_date: 'Date de fin '
+    cmp_id: 'identifiant '
+    cmp_name: 'Nom '
+    cmp_sender: 'Adolescent '
+    cmp_start_date: "Date de d\xE9but "
+    cmp_status: 'Statut '
+    cmp_todo: 'Faire '
+    cmp_type: 'Taper '
+    create_sms_cmp: 'Nouvelle campagne SMS '
+    create_ussd_cmp: "Cr\xE9er une campagne USSD "
+    create_voice_cmp: "Cr\xE9er une campagne vocale "
+    details: "des d\xE9tails "
+    sms_cmp_reports_done: "Rapports de campagne SMS effectu\xE9s "
+    sms_cmp_reports_todo: 'La campagne SMS rapporte tout '
+    title_activate_cmp: 'Veuillez importer des contacts pour activer la campagne '
+    title_delete_cmp: "S'il vous pla\xEEt arr\xEAter la campagne avant de supprimer "
   Mcc:
-    action: "\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21"
-    assigned: Assigned
-    base_number: Base Number
-    callerIDs: CallerIDs
-    callerIDs_edit: Edit CallerID
-    campaigns: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D"
-    campaigns_edit: "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D"
-    click: "\u0E15\u0E01\u0E25\u0E07"
-    count: "\u0E19\u0E31\u0E1A"
-    created: "\u0E2A\u0E23\u0E49\u0E32\u0E07"
-    delete_msg: "\u0E23\u0E25\u0E1A\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E19\u0E35\
-      \u0E49?"
-    delete_msg_numbers: "\u0E25\u0E1A\u0E08\u0E33\u0E19\u0E27\u0E19\u0E19\u0E35\u0E49\
-      ?"
-    description: "\u0E04\u0E33\u0E1A\u0E23\u0E23\u0E22\u0E32\u0E22"
-    file: "\u0E44\u0E1F\u0E25\u0E4C"
-    list_running_msg1: "\u0E44\u0E14\u0E49\u0E21\u0E35\u0E01\u0E32\u0E23\u0E41\u0E01\
-      \u0E49\u0E44\u0E02\u0E41\u0E15\u0E48\u0E40\u0E01\u0E34\u0E14\u0E02\u0E49\u0E2D\
-      \u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14"
-    list_running_msg2: "\u0E42\u0E2B\u0E25\u0E14\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\
-      \u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E23\u0E27\u0E21\u0E17\u0E31\u0E49\u0E07\
-      \u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E22\u0E31\u0E07\u0E44\
-      \u0E21\u0E48\u0E44\u0E14\u0E49\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01"
-    list_running_msg3: "\u0E42\u0E2B\u0E25\u0E14\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\
-      \u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E41\u0E1A\u0E1A\u0E40\u0E14\u0E35\u0E22\
-      \u0E27\u0E01\u0E31\u0E1A\u0E04\u0E23\u0E31\u0E49\u0E07\u0E25\u0E48\u0E32\u0E2A\
-      \u0E38\u0E14"
-    mcc: MCC
-    modified: "\u0E41\u0E01\u0E49\u0E44\u0E02"
-    name: "\u0E0A\u0E37\u0E48\u0E2D"
-    new_callerID_list: New CallerID list
-    new_campaign: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D\u0E43\u0E2B\u0E21\u0E48"
-    new_target_list: New target list
-    number: "\u0E08\u0E33\u0E19\u0E27\u0E19"
-    prefix: Prefix
-    random: Random
-    range: Range
-    script: "\u0E2A\u0E04\u0E23\u0E34\u0E1B\u0E15\u0E4C"
-    sequential: Sequential
-    targets: Targets
-    targets_edit: Edit Target
+    action: 'action '
+    assigned: "Attribu\xE9 "
+    base_number: "Num\xE9ro de base "
+    callerIDs: 'Callerids '
+    callerIDs_edit: 'Modifier callerid '
+    campaigns: 'Campagnes '
+    campaigns_edit: 'Modifier la campagne '
+    click: 'Cliquez sur '
+    count: 'Compter '
+    created: "Cr\xE9\xE9 "
+    delete_msg: "\xCAtes-vous s\xFBr de vouloir supprimer cette liste? "
+    delete_msg_numbers: "\xCAtes-vous s\xFBr de vouloir supprimer ces chiffres? "
+    description: 'La description '
+    file: "D\xE9poser "
+    list_running_msg1: "Des changements ont \xE9t\xE9 apport\xE9s \xE0 cette liste,\
+      \ mais quelque chose s'est mal pass\xE9. "
+    list_running_msg2: "pour charger la liste, y compris les modifications non enregistr\xE9\
+      es. "
+    list_running_msg3: "charger la liste car il a \xE9t\xE9 enregistr\xE9 la derni\xE8\
+      re fois. "
+    mcc: 'MCC '
+    modified: "Modifi\xE9 "
+    name: 'Nom '
+    new_callerID_list: 'Nouvelle liste de callerid '
+    new_campaign: 'Nouvelle campagne '
+    new_target_list: 'Nouvelle liste cible '
+    number: 'Nombre '
+    prefix: "Pr\xE9fixe "
+    random: "Al\xE9atoire "
+    range: 'Varier '
+    script: "Sc\xE9nario "
+    sequential: "S\xE9quentiel"
+    targets: 'Cibles '
+    targets_edit: "\xC9diter la cible "
   Send:
-    Message_ID: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E44\u0E2D\u0E14\u0E35\
-      \u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-    characters: "\u0E2D\u0E31\u0E01\u0E29\u0E23"
-    confirm_msg: "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E23\u0E32\u0E22\u0E25\u0E30\
-      \u0E40\u0E2D\u0E35\u0E22\u0E14\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-    date: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48"
-    detailed_report: "\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\
-      \u0E02\u0E2D\u0E07\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19"
-    discard: "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01"
-    enter_message: "\u0E23\u0E30\u0E1A\u0E38\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-    estimation: "\u0E42\u0E14\u0E22\u0E1B\u0E23\u0E30\u0E21\u0E32\u0E13"
-    failure: "\u0E25\u0E49\u0E21\u0E40\u0E2B\u0E25\u0E27"
-    filtered: "\u0E15\u0E31\u0E27\u0E01\u0E23\u0E2D\u0E07"
-    interactive_ussd: Interactive USSD service
-    interactive_voice: Interactive voice service
-    language: "\u0E20\u0E32\u0E29\u0E32"
-    message: "\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-    message_result: "\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25\u0E01\u0E32\u0E23\u0E2A\u0E48\
-      \u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-    notice1: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E01\u0E23\u0E2D\u0E01\u0E02\u0E49\u0E2D\
-      \u0E21\u0E39\u0E25\u0E43\u0E2B\u0E49\u0E04\u0E23\u0E1A\u0E16\u0E49\u0E27\u0E19"
-    now: "\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49"
-    numbers: "\u0E08\u0E33\u0E19\u0E27\u0E19"
-    processed: "\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23"
-    recipient: "\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A"
-    reference: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E2D\u0E49\u0E32\u0E07\
-      \u0E2D\u0E34\u0E07"
-    rejected: "\u0E1B\u0E0E\u0E34\u0E40\u0E2A\u0E18"
-    schedule: "\u0E15\u0E31\u0E49\u0E07\u0E40\u0E27\u0E25\u0E32"
-    send_sms: "\u0E2A\u0E48\u0E07 SMS"
-    send_tts: "\u0E2A\u0E48\u0E07 TTS"
-    send_ussd: Push USSD
-    send_voice: "\u0E2A\u0E48\u0E07 Voice message"
-    send_voice_script: "\u0E2A\u0E48\u0E07 Voice Script"
-    sender: "\u0E44\u0E2D\u0E14\u0E35\u0E1C\u0E39\u0E49\u0E2A\u0E48\u0E07"
-    sms_instant_reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E1C\u0E25 SMS \u0E17\
-      \u0E31\u0E19\u0E17\u0E35"
-    sms_pending_reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E1C\u0E25 SMS \u0E04\
-      \u0E07\u0E04\u0E49\u0E32\u0E07\u0E43\u0E19\u0E23\u0E30\u0E1A\u0E1A"
-    sms_service: 2-way SMS service
-    total_messages: "\u0E08\u0E33\u0E19\u0E27\u0E19\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\
-      \u0E21\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
+    Message_ID: 'ID du message '
+    characters: 'Personnages '
+    confirm_msg: "S'il vous pla\xEEt confirmer vos d\xE9tails de votre message "
+    date: 'Date '
+    detailed_report: "Rapport d\xE9taill\xE9 "
+    discard: 'Jeter '
+    enter_message: 'Tapez votre message '
+    estimation: 'Estimation '
+    failure: "\xC9chec "
+    filtered: "Filtr\xE9"
+    interactive_ussd: 'Service USSD interactif '
+    interactive_voice: 'Service vocal interactif '
+    language: 'Langue '
+    message: 'Un message '
+    message_result: "R\xE9sultat du message "
+    notice1: 'Veuillez remplir tout les champs '
+    now: "\xC0 pr\xE9sent "
+    numbers: 'Nombres '
+    processed: "Trait\xE9 "
+    recipient: "B\xE9n\xE9ficiaires "
+    reference: "R\xE9f\xE9rence "
+    rejected: "Rejet\xE9"
+    schedule: 'Horaire '
+    send_sms: 'Envoyer un SMS '
+    send_tts: 'Envoyer tts '
+    send_ussd: 'Push ussd '
+    send_voice: 'Envoyer un message vocal '
+    send_voice_script: 'Envoyer un script vocal '
+    sender: 'Adolescent '
+    sms_instant_reports: "Rapports instantan\xE9s SMS "
+    sms_pending_reports: 'SMS en attente de rapports '
+    sms_service: "Service SMS \xE0 2 voies "
+    total_messages: 'Total des messages '
   Status:
-    activated: "\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19"
-    finished: "\u0E2A\u0E34\u0E49\u0E19\u0E2A\u0E38\u0E14"
-    locked: "\u0E25\u0E47\u0E2D\u0E04"
-    running: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\
-      \u0E32\u0E23"
-    scheduled: "\u0E15\u0E31\u0E49\u0E07\u0E40\u0E27\u0E25\u0E32"
-    suspended: "\u0E23\u0E30\u0E07\u0E31\u0E1A"
+    activated: "Activ\xE9 "
+    finished: Fini
+    locked: "Ferm\xE9 \xE0 cl\xE9 "
+    running: 'En cours '
+    scheduled: "Programm\xE9 "
+    suspended: Suspendu
   btn:
-    btn_add: "\u0E40\u0E1E\u0E34\u0E48\u0E21"
-    btn_add_tag: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E41\u0E17\u0E47\u0E01"
-    btn_apply: "\u0E15\u0E01\u0E25\u0E07"
-    btn_back: "\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A"
-    btn_cancel: "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01"
-    btn_check_all: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\
-      \u0E14"
-    btn_choose_file: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E1F\u0E25\u0E4C"
-    btn_close: "\u0E1B\u0E34\u0E14"
-    btn_confirm: "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19"
-    btn_delete: "\u0E25\u0E1A"
-    btn_delete_contacts: "\u0E25\u0E1A\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\
-      \u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-    btn_download: "\u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14"
-    btn_export: "\u0E2A\u0E48\u0E07\u0E2D\u0E2D\u0E01"
-    btn_export_contacts: "\u0E2A\u0E48\u0E07\u0E2D\u0E2D\u0E01\u0E23\u0E32\u0E22\u0E0A\
-      \u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-    btn_finish: "\u0E2A\u0E34\u0E49\u0E19\u0E2A\u0E38\u0E14"
-    btn_import: "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32"
-    btn_import_contacts: "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E23\u0E32\u0E22\u0E0A\
-      \u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-    btn_inverse_selection: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E15\u0E23\u0E07\u0E02\
-      \u0E49\u0E32\u0E21"
-    btn_new: "\u0E43\u0E2B\u0E21\u0E48"
-    btn_next: "\u0E16\u0E31\u0E14\u0E44\u0E1B"
-    btn_pause: "\u0E23\u0E30\u0E07\u0E31\u0E1A\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D"
-    btn_play: "\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E0A\u0E49\u0E41\u0E04\u0E21\u0E40\u0E1B\
-      \u0E0D"
-    btn_previous: "\u0E01\u0E48\u0E2D\u0E19\u0E2B\u0E19\u0E49\u0E32"
-    btn_randomize: "\u0E2A\u0E38\u0E48\u0E21"
-    btn_restart: "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E41\u0E04\u0E21\
-      \u0E40\u0E1B\u0E0D\u0E43\u0E2B\u0E21\u0E48"
-    btn_restart_cmp: "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E41\u0E04\
-      \u0E21\u0E40\u0E1B\u0E0D\u0E43\u0E2B\u0E21\u0E48"
-    btn_return: "\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A"
-    btn_save: "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25"
-    btn_send: "\u0E2A\u0E48\u0E07"
-    btn_show: "\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25"
-    btn_sort: "\u0E08\u0E31\u0E14\u0E40\u0E23\u0E35\u0E22\u0E07"
-    btn_stop: "\u0E2A\u0E34\u0E49\u0E19\u0E2A\u0E38\u0E14\u0E41\u0E04\u0E21\u0E40\u0E1B\
-      \u0E0D"
-    btn_submit: "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19"
-  delete_msg: "\u0E25\u0E1A\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D\u0E19\u0E35\u0E49\u0E2D\
-    \u0E2D\u0E01?"
-  edit_campaign_title: "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E41\u0E04\u0E21\u0E40\u0E1B\
-    \u0E0D"
-  error: "\u0E02\u0E49\u0E2D\u0E1C\u0E34\u0E14\u0E1E\u0E25\u0E32\u0E14"
-  generate_csv_file: "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E44\u0E1F\u0E25\u0E4Ccsv"
-  import_contacts_title: "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E23\u0E32\u0E22\u0E0A\
-    \u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E21\
-    \u0E32\u0E22\u0E31\u0E07\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D"
-  placeholders: "\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23"
-  recipient_contacts: "\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A\u0E08\u0E32\u0E01\u0E23\
-    \u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\
-    \u0E48\u0E2D"
-  recipient_file: "\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A\u0E08\u0E32\u0E01\u0E44\u0E1F\
-    \u0E25\u0E4C"
-  recipient_list: "\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A\u0E08\u0E32\u0E01\u0E25\u0E34\
-    \u0E2A\u0E15\u0E4C\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\
-    \u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  recipient_tags: "\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A\u0E08\u0E32\u0E01\u0E41\u0E17\
-    \u0E47\u0E01"
-  select_contact: Please select a contact
-  select_file: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E44\u0E1F\u0E25\
-    \u0E4C"
-  select_list: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E25\u0E34\u0E2A\
-    \u0E15\u0E4C"
-  select_method: "\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E27\u0E34\
-    \u0E18\u0E35"
-  select_tag: "\u0E40\u0E25\u0E37\u0E2D\u0E01 \u0E41\u0E17\u0E47\u0E01"
-  success: "\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  warning: "\u0E04\u0E33\u0E40\u0E15\u0E37\u0E2D\u0E19"
+    btn_add: 'Ajouter '
+    btn_add_tag: "Ajouter une \xE9tiquette "
+    btn_apply: 'Appliquer '
+    btn_back: 'Revenir '
+    btn_cancel: 'Annuler '
+    btn_check_all: "V\xE9rifie tout "
+    btn_choose_file: 'Choisir le fichier '
+    btn_close: 'Fermer '
+    btn_confirm: 'Confirmer '
+    btn_delete: 'Effacer '
+    btn_delete_contacts: 'Supprimer les contacts '
+    btn_download: "T\xE9l\xE9charger "
+    btn_export: 'Exportation '
+    btn_export_contacts: 'Contacts d''exportation '
+    btn_finish: 'Finir '
+    btn_import: 'Importer '
+    btn_import_contacts: 'Contacts d''importation '
+    btn_inverse_selection: "S\xE9lection inverse "
+    btn_new: Nouveau
+    btn_next: Suivant
+    btn_pause: 'Suspendre la campagne '
+    btn_play: 'Activer la campagne '
+    btn_previous: "Pr\xE9c\xE9dent"
+    btn_randomize: 'Randomiser '
+    btn_restart: "Campagne de red\xE9marrage "
+    btn_restart_cmp: "Campagne de red\xE9marrage "
+    btn_return: 'Revenir '
+    btn_save: 'Sauvegarder '
+    btn_send: 'Envoyer '
+    btn_show: 'Spectacle '
+    btn_sort: 'Sorte '
+    btn_stop: 'Terminer la campagne '
+    btn_submit: 'Soumettre '
+  delete_msg: "\xCAtes-vous s\xFBr de vouloir supprimer cette campagne? "
+  edit_campaign_title: 'Modifier la campagne '
+  error: 'Erreur '
+  generate_csv_file: "G\xE9n\xE9rer un exemple de fichier CSV "
+  import_contacts_title: 'Contacts d''importation pour campagne '
+  placeholders: 'Placement '
+  recipient_contacts: 'Les destinataires des contacts '
+  recipient_file: 'Destinataires du fichier '
+  recipient_list: 'Les destinataires de la liste de contacts '
+  recipient_tags: 'Destinataires de Tags '
+  select_contact: "Veuillez s\xE9lectionner un contact "
+  select_file: "Veuillez s\xE9lectionner un fichier "
+  select_list: "Veuillez s\xE9lectionner une liste "
+  select_method: "Veuillez s\xE9lectionner une m\xE9thode "
+  select_tag: "S\xE9lectionnez Tags "
+  success: "Succ\xE8s "
+  warning: 'Avertissement '
 Settings:
-  balance_alerts: "\u0E41\u0E08\u0E49\u0E07\u0E40\u0E15\u0E37\u0E2D\u0E19\u0E22\u0E2D\
-    \u0E14\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D"
-  change_account: "\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E1B\u0E23\u0E30\u0E40\
-    \u0E20\u0E17\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  change_email: "\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E2D\u0E35\u0E40\u0E21\
-    \u0E25"
-  change_pwd: "\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E1E\u0E32\u0E2A\u0E40\u0E27\
-    \u0E34\u0E23\u0E4C\u0E15"
-  currency: "\u0E2A\u0E01\u0E38\u0E25\u0E40\u0E07\u0E34\u0E19"
-  currency_display: "\u0E41\u0E14\u0E07\u0E2A\u0E01\u0E38\u0E25\u0E40\u0E07\u0E34\u0E19"
-  price_notification: "\u0E41\u0E08\u0E49\u0E07\u0E40\u0E15\u0E37\u0E2D\u0E19\u0E23\
-    \u0E32\u0E04\u0E32"
-  services_most_used: "\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E43\
-    \u0E0A\u0E49\u0E21\u0E32\u0E01\u0E2A\u0E38\u0E14"
-  settings: "\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32"
-  subject: "\u0E2B\u0E31\u0E27\u0E02\u0E49\u0E2D"
-  verification: "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E15\u0E31\u0E27\u0E15\u0E19\
-    \ 2FA"
-  your_request: "\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E15\
-    \u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23"
+  balance_alerts: 'Balance des alertes '
+  change_account: 'Changer le type de compte '
+  change_email: 'Changer l''e-mail '
+  change_pwd: 'Changer le mot de passe '
+  currency: 'Devise '
+  currency_display: 'Affichage de la monnaie '
+  price_notification: 'Notifications de prix '
+  services_most_used: "Services les plus utilis\xE9s "
+  settings: "Param\xE8tres "
+  subject: "mati\xE8re "
+  verification: "2FA V\xE9rification "
+  your_request: 'Votre demande '
 Status_payment:
-  accepted: "\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E22\u0E2D\u0E21\
-    \u0E23\u0E31\u0E1A"
-  canceled: "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01"
-  pending: "\u0E23\u0E2D\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23"
-  processing: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E1B\u0E23\u0E30\u0E21\u0E27\u0E25\u0E1C\
-    \u0E25"
-  rejected: "\u0E1B\u0E0F\u0E34\u0E40\u0E2A\u0E18"
+  accepted: "Accept\xE9 "
+  canceled: "Annul\xE9 "
+  pending: 'En attente '
+  processing: 'Traitement '
+  rejected: "Rejet\xE9"
 Subject:
-  Report a payment problem: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E1B\u0E31\u0E0D\
-    \u0E2B\u0E32\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19"
-  Report a technical problem: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E1B\u0E31\u0E0D\
-    \u0E2B\u0E32\u0E17\u0E32\u0E07\u0E40\u0E17\u0E04\u0E19\u0E34\u0E04"
-  Submit a request / question: "\u0E2A\u0E48\u0E07\u0E04\u0E33\u0E02\u0E2D / \u0E04\
-    \u0E33\u0E16\u0E32\u0E21"
+  Report a payment problem: "Signaler un probl\xE8me de paiement "
+  Report a technical problem: "Signaler un probl\xE8me technique "
+  Submit a request / question: 'Soumettre une demande / question '
 Success_msg:
-  campaign_created: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D\u0E17\u0E35\u0E48\u0E2A\u0E23\
-    \u0E49\u0E32\u0E07\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  campaign_not_created: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D\u0E17\u0E35\u0E48\u0E44\
-    \u0E21\u0E48\u0E44\u0E14\u0E49\u0E2A\u0E23\u0E49\u0E32\u0E07"
-  contacts_added: "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\
-    \u0E34\u0E14\u0E15\u0E48\u0E2D\u0E17\u0E35\u0E48\u0E40\u0E1E\u0E34\u0E48\u0E21\
-    \u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  contacts_imported: "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E23\u0E32\u0E22\u0E0A\
-    \u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E2A\
-    \u0E33\u0E40\u0E23\u0E47\u0E08"
-  deleted: "\u0E08\u0E33\u0E19\u0E27\u0E19\u0E17\u0E35\u0E48\u0E25\u0E1A\u0E2A\u0E33\
-    \u0E40\u0E23\u0E47\u0E08"
-  deleted_cmp: "\u0E25\u0E1A\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  list_added: "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E40\u0E1E\u0E34\
-    \u0E48\u0E21\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  name_permitted: "\u0E0A\u0E37\u0E48\u0E2D\u0E19\u0E35\u0E49\u0E44\u0E14\u0E49\u0E23\
-    \u0E31\u0E1A\u0E2D\u0E19\u0E38\u0E0D\u0E32\u0E15\u0E34"
-  number_added: "\u0E08\u0E33\u0E19\u0E27\u0E19\u0E17\u0E35\u0E48\u0E40\u0E1E\u0E34\
-    \u0E48\u0E21\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  number_exist: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E19\u0E35\u0E49\u0E21\
-    \u0E35\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\
-    \u0E2D\u0E22\u0E39\u0E48\u0E41\u0E25\u0E49\u0E27"
-  numbers_added: "\u0E08\u0E33\u0E19\u0E27\u0E19\u0E17\u0E35\u0E48\u0E40\u0E1E\u0E34\
-    \u0E48\u0E21\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  numbers_in_list: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E19\u0E35\u0E49\u0E21\
-    \u0E35\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\
-    \u0E2D\u0E22\u0E39\u0E48\u0E41\u0E25\u0E49\u0E27"
-  saved: "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\
-    \u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
-  updated: "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
+  campaign_created: "Campagne cr\xE9\xE9e avec succ\xE8s "
+  campaign_not_created: "Campagne non cr\xE9\xE9e "
+  contacts_added: "Contacts ajout\xE9s avec succ\xE8s "
+  contacts_imported: "Contacts import\xE9s avec succ\xE8s "
+  deleted: "Num\xE9ros supprim\xE9s avec succ\xE8s "
+  deleted_cmp: "Supprim\xE9 avec succ\xE8s "
+  list_added: "Liste ajout\xE9e avec succ\xE8s "
+  name_permitted: "Nom autoris\xE9 "
+  number_added: "Nombre ajout\xE9 avec succ\xE8s "
+  number_exist: "Cette liste contient ce num\xE9ro "
+  numbers_added: "Num\xE9ros ajout\xE9s avec succ\xE8s "
+  numbers_in_list: "Cette liste contient ces num\xE9ros "
+  saved: "Sauv\xE9 avec succ\xE8s "
+  updated: "Mis \xE0 jour avec succ\xE9s "
 Support:
-  email: "\u0E2D\u0E35\u0E40\u0E21\u0E25"
-  message: "\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-  name: "\u0E0A\u0E37\u0E48\u0E2D"
-  subject: "\u0E2B\u0E31\u0E27\u0E02\u0E49\u0E2D"
-  title: "\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E40\u0E08\u0E49\u0E32\u0E2B\u0E19\
-    \u0E49\u0E32\u0E17\u0E35\u0E48"
+  email: 'E-mail '
+  message: 'Un message '
+  name: 'Nom '
+  subject: "Mati\xE8re "
+  title: 'Contactez notre soutien '
 Welcome_page:
-  greeting: "\u0E22\u0E34\u0E19\u0E14\u0E35\u0E15\u0E49\u0E2D\u0E19\u0E23\u0E31\u0E1A\
-    \u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A _char_vyzyo_contact_char_"
-  sms_services: "\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E14\u0E49\u0E32\u0E19 SMS"
-  ussd_services: "\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E14\u0E49\u0E32\u0E19 USSD"
-  vc_description: "_char_vyzyo_contact_char_ \u0E40\u0E1B\u0E47\u0E19\u0E23\u0E30\u0E1A\
-    \u0E1A\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E14\u0E49\u0E32\u0E19\u0E01\u0E32\
-    \u0E23\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E42\u0E14\
-    \u0E22\u0E43\u0E0A\u0E49\u0E1E\u0E37\u0E49\u0E19\u0E10\u0E32\u0E19\u0E23\u0E30\
-    \u0E1A\u0E1A\u0E08\u0E32\u0E01\u0E04\u0E25\u0E32\u0E27\u0E14\u0E4C \u0E2B\u0E23\
-    \u0E37\u0E2D\u0E40\u0E23\u0E35\u0E22\u0E01\u0E27\u0E48\u0E32\u0E41\u0E1E\u0E25\
-    \u0E15\u0E1F\u0E2D\u0E23\u0E4C\u0E21(CaaS)"
-  voice_services: "\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E14\u0E49\u0E32\u0E19 Voice"
+  greeting: "Bienvenue sur %vyzyo_contact% \u2122 "
+  sms_services: 'Services SMS '
+  ussd_services: 'Services USSD '
+  vc_description: "%vyzyo_contact% \u2122 est une communication en nuage en tant que\
+    \ plate-forme de service (CAAS) qui permet d'engager et de messagerie avec vos\
+    \ clients et d'avoir une communication directe sur n'importe quel canal. "
+  voice_services: 'Services vocaux '
 activity_monitoring:
-  finished_cmp: "\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D\u0E17\u0E35\u0E48\u0E2A\u0E33\
-    \u0E40\u0E23\u0E47\u0E08"
-  in_msg: "\u0E23\u0E31\u0E1A\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-  last_month: "\u0E40\u0E14\u0E37\u0E2D\u0E19\u0E17\u0E35\u0E48\u0E41\u0E25\u0E49\u0E27"
-  out_msg: "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
-  running_cmp: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E40\u0E23\u0E35\u0E22\u0E01\u0E43\
-    \u0E0A\u0E49\u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D"
-  scheduled_cmp: "\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\
-    \u0E41\u0E04\u0E21\u0E40\u0E1B\u0E0D"
-  service: "\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23"
-  this_month: "\u0E40\u0E14\u0E37\u0E2D\u0E19\u0E19\u0E35\u0E49"
-  this_week: "\u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C\u0E19\u0E35\u0E49"
-  today: "\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49"
-  total: "\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
+  finished_cmp: 'Campagnes finies '
+  in_msg: 'Messages entrants '
+  last_month: 'Le mois dernier '
+  out_msg: 'Messages sortants '
+  running_cmp: "Campagnes en cours d'ex\xE9cution "
+  scheduled_cmp: "Campagnes planifi\xE9es "
+  service: 'Un service '
+  this_month: 'Ce mois-ci '
+  this_week: 'Cette semaine '
+  today: 'Aujourd''hui '
+  total: 'Le total '
 billing_and_payment:
-  btn_topup: "\u0E40\u0E15\u0E34\u0E21\u0E40\u0E07\u0E34\u0E19\u0E17\u0E31\u0E19\u0E17\
-    \u0E35"
-  btn_send: "\u0E2A\u0E48\u0E07"
-  btn_cancel: "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01"
-  payment_method: "\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E01\u0E32\u0E23\u0E0A\u0E33\
-    \u0E23\u0E30\u0E40\u0E07\u0E34\u0E19"
-  credit_card: "\u0E40\u0E04\u0E23\u0E14\u0E34\u0E15\u0E01\u0E32\u0E23\u0E4C\u0E14"
-  bank_transfer: "\u0E42\u0E2D\u0E19\u0E1C\u0E48\u0E32\u0E19\u0E1A\u0E31\u0E0D\u0E0A\
-    \u0E35\u0E18\u0E19\u0E32\u0E04\u0E32\u0E23"
-  payPal: PayPal
-  bank_cheque: "\u0E40\u0E0A\u0E47\u0E04\u0E18\u0E19\u0E32\u0E04\u0E32\u0E23"
-  amount: "\u0E08\u0E33\u0E19\u0E27\u0E19"
-  card_number: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E01\u0E32\u0E23\u0E4C\
-    \u0E14"
-  code_verification: "\u0E23\u0E2B\u0E31\u0E2A\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19"
-  date_expiration: "\u0E27\u0E31\u0E19\u0E2B\u0E21\u0E14\u0E2D\u0E32\u0E22\u0E38"
-  holder_name: "\u0E02\u0E37\u0E48\u0E2D \u0E19\u0E32\u0E21\u0E2A\u0E01\u0E38\u0E25\
-    \u0E1C\u0E39\u0E49\u0E16\u0E37\u0E2D\u0E1A\u0E31\u0E15\u0E23\u0E40\u0E04\u0E23\
-    \u0E14\u0E34\u0E15"
-  visa_payment: "\u0E0A\u0E33\u0E23\u0E30\u0E42\u0E14\u0E22\u0E1A\u0E31\u0E15\u0E23\
-    \u0E27\u0E35\u0E0B\u0E48\u0E32"
-  completed: "\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\
-    \u0E49\u0E2D\u0E22"
-  rejected: "\u0E1B\u0E0E\u0E34\u0E40\u0E2A\u0E18"
-  payment_credit_card: "\u0E0A\u0E33\u0E23\u0E30\u0E1C\u0E48\u0E32\u0E19\u0E1A\u0E31\
-    \u0E15\u0E23\u0E40\u0E04\u0E23\u0E14\u0E34\u0E15\u0E01\u0E32\u0E23\u0E4C\u0E14"
-  enter_amount: "\u0E43\u0E2A\u0E48\u0E08\u0E33\u0E19\u0E27\u0E19\u0E40\u0E07\u0E34\
-    \u0E19"
-  amount_submitted: "\u0E08\u0E33\u0E19\u0E27\u0E19\u0E40\u0E07\u0E34\u0E19\u0E17\u0E35\
-    \u0E48\u0E0A\u0E33\u0E23\u0E30\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
-  add_funds: "\u0E40\u0E15\u0E34\u0E21\u0E40\u0E07\u0E34\u0E19"
-  msg_send_payment: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E2A\u0E48\u0E07\u0E01\u0E32\u0E23\
-    \u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\
-    \u0E13\u0E44\u0E1B\u0E17\u0E35\u0E48"
-  msg_cheque_payment: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E2A\u0E48\u0E07\u0E40\u0E0A\
-    \u0E47\u0E04\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E1B\u0E17\u0E35\u0E48"
-  bank_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E18\u0E19\u0E32\u0E04\u0E32\u0E23"
-  bank_address: "\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E18\u0E19\u0E32\u0E04\
-    \u0E32\u0E23"
-  beneficiary_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E18\u0E19\
-    \u0E32\u0E04\u0E32\u0E23"
-  iban: IBAN
-  account_number: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E1A\u0E31\u0E0D\u0E0A\
-    \u0E35"
-  swift: SWIFT
-  bic: BIC
-  reference: "\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07"
-  account_type: "\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  important_note: "\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E33\u0E04\u0E31\
-    \u0E0D"
-  msg_important_note: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E43\u0E2A\u0E48\u0E2B\u0E21\
-    \u0E32\u0E22\u0E40\u0E25\u0E02\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07\u0E02\
-    \u0E2D\u0E07\u0E04\u0E38\u0E13 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\
-    \u0E21\u0E23\u0E27\u0E14\u0E40\u0E40\u0E23\u0E47\u0E27\u0E43\u0E19\u0E01\u0E32\
-    \u0E23\u0E40\u0E15\u0E34\u0E21\u0E40\u0E07\u0E34\u0E19\u0E40\u0E02\u0E49\u0E32\
-    \u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13"
-  msg_transfer: "\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\
-    \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E16\u0E39\u0E01\u0E40\u0E15\
-    \u0E34\u0E21\u0E40\u0E07\u0E34\u0E19\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\
-    \u0E23\u0E30\u0E1A\u0E1A _char_vyzyo_contact_char_ \u0E20\u0E32\u0E22\u0E43\u0E19\
-    \ 48\u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07"
-  msg_transfer2: "\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\
-    \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E16\u0E39\u0E01\u0E40\u0E15\
-    \u0E34\u0E21\u0E40\u0E07\u0E34\u0E19\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\
-    \u0E23\u0E30\u0E1A\u0E1A _char_vyzyo_contact_char_ \u0E20\u0E32\u0E22\u0E43\u0E19\
-    \ 24\u0E0A\u0E31\u0E48\u0E27\u0E42\u0E21\u0E07"
-  msg_transfer3: "\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\
-    \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E08\u0E30\u0E16\u0E39\u0E01\u0E40\u0E15\
-    \u0E34\u0E21\u0E40\u0E07\u0E34\u0E19\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\
-    \u0E23\u0E30\u0E1A\u0E1A _char_vyzyo_contact_char_ Contact \u0E17\u0E31\u0E19\u0E17\
-    \u0E35"
-  msg_cancel_payment: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E22\u0E01\u0E40\
-    \u0E25\u0E34\u0E01\u0E01\u0E32\u0E23\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\
-    \u0E19 ?"
-  creation_date: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E40\u0E23\u0E34\u0E48\u0E21"
-  status_date: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E16\u0E32\u0E19\u0E30"
-  internal_reference: "\u0E01\u0E32\u0E23\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07\
-    \u0E20\u0E32\u0E22\u0E43\u0E19"
-  external_reference: "\u0E01\u0E32\u0E23\u0E2D\u0E49\u0E32\u0E07\u0E2D\u0E34\u0E07\
-    \u0E20\u0E32\u0E22\u0E19\u0E2D\u0E01"
-  status: "\u0E2A\u0E16\u0E32\u0E19\u0E30"
-  summary_transaction: "\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E22\u0E37\u0E48\u0E19\
-    \u0E04\u0E33\u0E02\u0E2D\u0E0A\u0E33\u0E23\u0E30\u0E40\u0E07\u0E34\u0E19\u0E08\
-    \u0E33\u0E19\u0E27\u0E19"
-  true: "\u0E43\u0E0A\u0E48"
-  false: "\u0E44\u0E21\u0E48"
+  btn_topup: 'Recharger maintenant '
+  btn_send: 'Envoyer '
+  btn_cancel: 'Annuler '
+  payment_method: 'Mode de paiement '
+  credit_card: "Carte de cr\xE9dit "
+  bank_transfer: 'virement '
+  payPal: 'Pay Pal '
+  bank_cheque: "Ch\xE8que bancaire "
+  amount: Montant
+  card_number: "Num\xE9ro de carte "
+  code_verification: "Code de v\xE9rification "
+  date_expiration: 'Date d''expiration '
+  holder_name: 'Nom du titulaire '
+  visa_payment: 'Paiement de visa '
+  completed: "Compl\xE9t\xE9 "
+  rejected: "Rejet\xE9"
+  payment_credit_card: "Paiement via une carte de cr\xE9dit "
+  enter_amount: 'Entrer le montant '
+  amount_submitted: "Montant \xE0 soumettre "
+  add_funds: 'Ajouter des fonds '
+  msg_send_payment: "S'il vous pla\xEEt envoyer votre paiement comme suit "
+  msg_cheque_payment: "S'il vous pla\xEEt envoyez votre ch\xE8que comme suit "
+  bank_name: 'Nom de banque '
+  bank_address: 'adresse de la banque '
+  beneficiary_name: "Nom du b\xE9n\xE9ficiaire "
+  iban: 'ALLAIENT '
+  account_number: "Num\xE9ro de compte "
+  swift: 'RAPIDE '
+  bic: 'Bic '
+  reference: "R\xE9f\xE9rence "
+  account_type: 'Type de compte '
+  important_note: 'Note importante '
+  msg_important_note: "Pour \xE9viter les retards dans votre traitement de transfert,\
+    \ assurez-vous d'inclure la r\xE9f\xE9rence ci-dessus dans votre transfert. "
+  msg_transfer: "Votre transfert sera cr\xE9dit\xE9 sur votre compte %vyzyo_contact%\
+    \ dans les 48 heures. "
+  msg_transfer2: "Votre transfert sera cr\xE9dit\xE9 sur votre compte %vyzyo_contact%\
+    \ dans les 24 heures. "
+  msg_transfer3: "Votre transfert sera cr\xE9dit\xE9 instantan\xE9ment \xE0 votre\
+    \ compte %vyzyo_contact%. "
+  msg_cancel_payment: "\xCAtes-vous s\xFBr que vous voulez annuler ce paiement "
+  creation_date: "Date de cr\xE9ation "
+  status_date: 'Date de statut '
+  internal_reference: "R\xE9f\xE9rence interne "
+  external_reference: "R\xE9f\xE9rence externe "
+  status: 'Statut '
+  summary_transaction: 'Vous avez fait une demande de fonds de '
+  true: 'Oui '
+  false: 'Non '
 contacts_management:
-  add_contact: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\
-    \u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  add_list: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E25\u0E34\u0E2A\u0E15\u0E4C"
-  add_to_list: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\
-    \u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E22\
-    \u0E31\u0E07\u0E25\u0E34\u0E2A\u0E15\u0E4C"
-  btn_import_contacts: "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E23\u0E32\u0E22\u0E0A\
-    \u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  btn_show_contacts: "\u0E41\u0E2A\u0E14\u0E07\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\
-    \u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  color: "\u0E2A\u0E35"
-  contact_list: "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\
-    \u0E34\u0E14\u0E15\u0E48\u0E2D"
-  contacts: "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\
-    \u0E14\u0E15\u0E48\u0E2D\u0E02\u0E2D\u0E07\u0E09\u0E31\u0E19"
-  contacts_list: "\u0E23\u0E32\u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\
-    \u0E34\u0E14\u0E15\u0E48\u0E2D"
-  create_tag: "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E41\u0E17\u0E47\u0E01\u0E43\u0E2B\u0E21\
-    \u0E48"
-  delete_contacts: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E25\u0E22\u0E23\u0E32\
-    \u0E22\u0E0A\u0E37\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\
-    \u0E2D\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E27\u0E49?"
-  delete_tag_msg: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E25\u0E1A\u0E41\u0E17\
-    \u0E47\u0E01\u0E19\u0E35\u0E49?"
-  edit_contact_list: "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E23\u0E32\u0E22\u0E0A\u0E37\
-    \u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  edit_tag: "\u0E41\u0E01\u0E49\u0E44\u0E02\u0E41\u0E17\u0E47\u0E01"
-  export_contacts: "\u0E2A\u0E48\u0E07\u0E2D\u0E2D\u0E01\u0E23\u0E32\u0E22\u0E0A\u0E37\
-    \u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  file_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E1F\u0E25\u0E4C"
-  import_contacts: "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E23\u0E32\u0E22\u0E0A\u0E37\
-    \u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D"
-  include_header: "\u0E23\u0E27\u0E21\u0E2A\u0E48\u0E27\u0E19header\u0E14\u0E49\u0E27\
-    \u0E22"
-  invalid_file: "\u0E44\u0E1F\u0E25\u0E4C\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\
-    \u0E49\u0E2D\u0E07"
-  lines_errors: "\u0E01\u0E32\u0E23\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E02\u0E49\
-    \u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\
-    \ \u0E21\u0E35\u0E2B\u0E25\u0E32\u0E22\u0E41\u0E16\u0E27\u0E43\u0E0A\u0E49\u0E44\
-    \u0E21\u0E48\u0E44\u0E14\u0E49"
-  lines_imported: "\u0E01\u0E32\u0E23\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E02\u0E49\
-    \u0E2D\u0E21\u0E39\u0E25\u0E41\u0E15\u0E48\u0E25\u0E30\u0E41\u0E16\u0E27\u0E2A\
-    \u0E33\u0E40\u0E23\u0E47\u0E08\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\
-    \u0E22"
-  lines_skipped: "\u0E44\u0E21\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E19\
-    \u0E33\u0E40\u0E02\u0E49\u0E32\u0E41\u0E16\u0E27\u0E19\u0E02\u0E49\u0E2D\u0E21\
-    \u0E39\u0E25\u0E19\u0E35\u0E49"
-  new_tag: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E41\u0E17\u0E47\u0E01"
-  no_contacts_selected: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E23\u0E32\u0E22\u0E0A\u0E37\
-    \u0E48\u0E2D\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E27\u0E49"
-  notice_mandatory_field: "\u0E0A\u0E48\u0E2D\u0E07\u0E19\u0E35\u0E49\u0E2B\u0E49\u0E32\
-    \u0E21\u0E40\u0E27\u0E49\u0E19\u0E27\u0E48\u0E32\u0E07"
-  notice_number_format: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E23\u0E30\u0E1A\u0E38\u0E40\
-    \u0E1A\u0E2D\u0E23\u0E4C\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E43\
-    \u0E19\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A \u0E23\u0E2B\u0E31\u0E2A\u0E1B\u0E23\
-    \u0E30\u0E40\u0E17\u0E28 \u0E15\u0E32\u0E21\u0E14\u0E49\u0E27\u0E22 \u0E2B\u0E21\
-    \u0E32\u0E22\u0E40\u0E25\u0E02\u0E40\u0E1A\u0E2D\u0E23\u0E4C\u0E42\u0E17\u0E23\
-    \u0E28\u0E31\u0E1E\u0E17\u0E4C  \u0E40\u0E0A\u0E48\u0E19 66 \u0E2B\u0E23\u0E37\
-    \u0E2D +66"
-  save_changes: "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\
-    \u0E25"
-  select_tag: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E41\u0E17\u0E47\u0E01"
-  separator: "\u0E15\u0E31\u0E27\u0E41\u0E22\u0E01"
-  skip_first_line: "\u0E02\u0E49\u0E32\u0E21\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E41\
-    \u0E23\u0E01"
-  tags: "\u0E41\u0E17\u0E47\u0E01"
-  update_tag: "\u0E2D\u0E31\u0E1B\u0E40\u0E14\u0E15\u0E41\u0E17\u0E47\u0E01"
-  valid_list_name: "\u0E0A\u0E37\u0E48\u0E2D\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E17\
-    \u0E35\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07"
+  add_contact: 'Ajouter le contact '
+  add_list: 'Ajouter la liste '
+  add_to_list: "Ajouter des contacts \xE0 la liste "
+  btn_import_contacts: 'Contacts d''importation '
+  btn_show_contacts: 'Afficher les contacts '
+  color: 'Couleur '
+  contact_list: 'Liste de contacts '
+  contacts: 'Mes contacts '
+  contacts_list: 'Liste des contacts '
+  create_tag: "Cr\xE9er une nouvelle \xE9tiquette "
+  delete_contacts: "\xCAtes-vous s\xFBr de vouloir supprimer les contacts s\xE9lectionn\xE9\
+    s "
+  delete_tag_msg: "\xCAtes-vous s\xFBr de vouloir supprimer cette balise "
+  edit_contact_list: 'Modifier la liste de contacts '
+  edit_tag: "\xC9dition d'\xE9dition "
+  export_contacts: 'Contacts d''exportation '
+  file_name: 'Nom de fichier '
+  import_contacts: 'Contacts d''importation '
+  include_header: "Inclure l'en-t\xEAte "
+  invalid_file: 'Fichier non valide '
+  lines_errors: 'Erreurs de lignes '
+  lines_imported: "Lignes import\xE9es avec succ\xE8s "
+  lines_skipped: "Lignes ignor\xE9es "
+  new_tag: 'Nouveau jour '
+  no_contacts_selected: "Aucun contact s\xE9lectionn\xE9 "
+  notice_mandatory_field: 'Ce champ est obligatoire '
+  notice_number_format: "Assurez-vous que le nombre est conforme \xE0 notre plan de\
+    \ num\xE9rotation d'op\xE9rateur, utilisez g\xE9n\xE9ralement International E164. "
+  save_changes: 'Sauvegarder les modifications '
+  select_tag: "S\xE9lectionner la balise "
+  separator: "S\xE9parateur"
+  skip_first_line: "Ignorer la premi\xE8re ligne "
+  tags: "Mots cl\xE9s "
+  update_tag: 'Update_tag '
+  valid_list_name: 'Nom de la liste valide '
 documentaion_api:
-  API: "\u0E01\u0E32\u0E23\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E15\u0E48\u0E2D\u0E1C\
-    \u0E48\u0E32\u0E19\u0E23\u0E30\u0E1A\u0E1A API"
-  SMPP_interface: SMPP interface
-  SMS_campaign: SMS Campaign
-  content_management: Content Management
-  details: Details
-  other_protocols: Other protocols
-  push_SMS: Push SMS
-  push_voice_message: Push Voice
-  standard_APIs: Standard APIs
-  voice_campaign: Voice Campaign
+  API: 'FEU '
+  SMPP_interface: 'Interface SMPP '
+  SMS_campaign: 'Campagne SMS '
+  content_management: 'Gestion de contenu '
+  details: "Des d\xE9tails "
+  other_protocols: 'Autres protocoles '
+  push_SMS: 'Pousser des SMS '
+  push_voice_message: 'Poussez le message vocal '
+  standard_APIs: 'API standard '
+  voice_campaign: 'Campagne vocale '
 media_files:
-  btn_copy_file: "\u0E01\u0E47\u0E2D\u0E1B\u0E1B\u0E35\u0E49\u0E44\u0E1F\u0E25\u0E4C"
-  btn_copy_folder: "\u0E01\u0E47\u0E2D\u0E1B\u0E1B\u0E35\u0E49\u0E42\u0E1F\u0E25\u0E40\
-    \u0E14\u0E2D\u0E23\u0E4C"
-  btn_create_folder: "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E42\u0E1F\u0E25\u0E40\u0E14\
-    \u0E2D\u0E23\u0E4C"
-  btn_delete_file: "\u0E25\u0E1A\u0E44\u0E1F\u0E25\u0E4C"
-  btn_delete_folder: "\u0E25\u0E1A\u0E42\u0E1F\u0E25\u0E40\u0E14\u0E2D\u0E23\u0E4C"
-  btn_download_file: "\u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14\u0E44\
-    \u0E1F\u0E25\u0E4C"
-  btn_rename_file: "\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E0A\u0E37\u0E48\u0E2D\
-    \u0E44\u0E1F\u0E25\u0E4C"
-  btn_rename_folder: "\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E0A\u0E37\u0E48\
-    \u0E2D\u0E42\u0E1F\u0E25\u0E40\u0E14\u0E2D\u0E23\u0E4C"
-  btn_upload_file: "\u0E2D\u0E31\u0E1E\u0E42\u0E2B\u0E25\u0E14\u0E44\u0E1F\u0E25\u0E4C"
+  btn_copy_file: 'Copier un fichier '
+  btn_copy_folder: 'Copiez le dossier '
+  btn_create_folder: "Cr\xE9er le dossier "
+  btn_delete_file: 'Supprimer le fichier '
+  btn_delete_folder: 'Supprimer le dossier '
+  btn_download_file: "T\xE9l\xE9charger un fichier "
+  btn_rename_file: 'Renommer le fichier '
+  btn_rename_folder: 'Renommer le dossier '
+  btn_upload_file: "T\xE9l\xE9verser un fichier "
 subaccounts:
-  account_type: "\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E1A\u0E31\u0E0D\u0E0A\u0E35"
-  action: "\u0E01\u0E32\u0E23\u0E01\u0E23\u0E30\u0E17\u0E33"
-  activities: "\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21"
-  add_sub: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E22\u0E48\
-    \u0E2D\u0E22"
-  btn_balances: "\u0E22\u0E2D\u0E14\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D"
-  btn_billing_reports: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E01\u0E32\u0E23\u0E40\
-    \u0E23\u0E35\u0E22\u0E01\u0E40\u0E01\u0E47\u0E1A\u0E40\u0E07\u0E34\u0E19"
-  btn_credit_balance: "\u0E22\u0E2D\u0E14\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D\
-    \u0E14\u0E49\u0E32\u0E19\u0E40\u0E04\u0E23\u0E14\u0E34\u0E15"
-  btn_debit_balance: "\u0E22\u0E2D\u0E14\u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D\
-    \u0E14\u0E49\u0E32\u0E19\u0E40\u0E14\u0E1A\u0E34\u0E15"
-  btn_delete: "\u0E25\u0E1A"
-  btn_import_rates: "\u0E19\u0E33\u0E40\u0E02\u0E49\u0E32\u0E40\u0E23\u0E32\u0E04\u0E32"
-  btn_rate_tables: "\u0E15\u0E32\u0E23\u0E32\u0E07\u0E23\u0E32\u0E04\u0E32"
-  btn_statements: "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23"
-  capacities: "\u0E04\u0E27\u0E32\u0E21\u0E08\u0E38"
-  currency: "\u0E2A\u0E01\u0E38\u0E25\u0E40\u0E07\u0E34\u0E19"
-  label: "\u0E1B\u0E49\u0E32\u0E22\u0E01\u0E33\u0E01\u0E31\u0E1A"
-  last_modified: "\u0E01\u0E32\u0E23\u0E41\u0E01\u0E49\u0E44\u0E02\u0E25\u0E48\u0E32\
-    \u0E2A\u0E38\u0E14"
-  leverage: Leverage
-  low_balance_warning: "\u0E04\u0E33\u0E40\u0E15\u0E37\u0E2D\u0E19\u0E22\u0E2D\u0E14\
-    \u0E04\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E15\u0E48\u0E33"
-  max_subaccounts: "\u0E08\u0E33\u0E19\u0E27\u0E19\u0E1A\u0E31\u0E0D\u0E0A\u0E35\u0E22\
-    \u0E48\u0E2D\u0E22 \u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14"
-  max_sublevels: "\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E22\u0E48\u0E2D\u0E22 \u0E2A\u0E39\
-    \u0E07\u0E2A\u0E38\u0E14"
-  media: "\u0E21\u0E35\u0E40\u0E14\u0E35\u0E22"
-  notification_level: "\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E41\u0E08\
-    \u0E49\u0E07\u0E40\u0E15\u0E37\u0E2D\u0E19"
-  over_draft_limit: "\u0E40\u0E01\u0E34\u0E19\u0E02\u0E35\u0E14\u0E08\u0E33\u0E01\u0E31\
-    \u0E14"
+  account_type: 'Type de compte '
+  action: 'action '
+  activities: "Activit\xE9s "
+  add_sub: 'ajouter un sous-compte '
+  btn_balances: 'Soldes '
+  btn_billing_reports: 'Rapports de facturation '
+  btn_credit_balance: "Solde cr\xE9diteur "
+  btn_debit_balance: "Solde d\xE9biteur "
+  btn_delete: 'Effacer '
+  btn_import_rates: 'Taux d''importation '
+  btn_rate_tables: 'Tables tables '
+  btn_statements: "D\xE9clarations "
+  capacities: "Capacit\xE9s "
+  currency: 'Devise '
+  label: "\xE9tiqueter "
+  last_modified: "Derni\xE8re modification "
+  leverage: 'Effet de levier '
+  low_balance_warning: "Avertissement de faible \xE9quilibre "
+  max_subaccounts: 'Max sous-comptes '
+  max_sublevels: 'Max Sublevels '
+  media: "M\xE9dias "
+  notification_level: 'Niveau de notification '
+  over_draft_limit: "Limite de d\xE9couvert "
 warning_msg:
-  deleting_contacts: "\u0E01\u0E32\u0E23\u0E25\u0E1A\u0E23\u0E32\u0E22\u0E0A\u0E37\
-    \u0E48\u0E2D \u0E23\u0E32\u0E22\u0E42\u0E1B\u0E23\u0E14\u0E2D\u0E14\u0E43\u0E08\
-    \u0E23\u0E2D\u0E01\u0E32\u0E23\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\
-    \u0E23\u0E19\u0E35\u0E49\u0E08\u0E30\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32\
-    \u0E2A\u0E31\u0E01\u0E04\u0E23\u0E39\u0E48"
-  deleting_contacts2: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E25\u0E1A   _char_deleted_contacts_char_\
-    \  of  _char_arr_id.length_char_  contacts"
-  empty_table: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\
-    \u0E21\u0E41\u0E2A\u0E14\u0E07"
-  no_contacts_added: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E23\u0E32\u0E22\u0E0A\u0E37\
-    \u0E48\u0E2D\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E40\u0E1E\u0E34\u0E48\u0E21"
+  deleting_contacts: 'Supprimer des contacts, veuillez patienter cela prendra un certain
+    temps '
+  deleting_contacts2: 'Suppression %Deletted_contacts% de %arr_id.length% Contacts '
+  empty_table: "Aucune entr\xE9e \xE0 montrer "
+  no_contacts_added: "Aucun contact n'a \xE9t\xE9 ajout\xE9 "
