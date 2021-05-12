@@ -1,4 +1,5 @@
 import argparse
+import datetime
 import subprocess
 import concurrent.futures
 
@@ -7,8 +8,14 @@ def translate_value(value, sub_key, key, sub_sub_key=None):
     global counter
     global parsed_yaml
     counter += 1
+    if counter > 20:
+        return
     print(f'translating {counter} of {all_items}')
-    value = translator.translate(value, lang_tgt='fr')
+    try:
+        value = translator.translate(value, lang_tgt='fr')
+    except Exception as e:
+        print(e)
+
     value = str(value).replace('_char_', '%') if type(value) is str else value[0]
     print(value)
     if sub_sub_key is None:
@@ -58,6 +65,7 @@ if __name__ == '__main__':
                         for sub_sub_key, sub_sub_value in value[sub_key].items():
                             executor.submit(translate_value, value[sub_key], sub_key, key, sub_sub_key=sub_sub_key)
 
-                # parsed_yaml_output[key] = value
-    with open(file='translated.yml', mode='w') as file:
-        yaml.safe_dump(parsed_yaml, file, encoding='windows-1252',allow_unicode=True)
+    date = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
+    file_name = f'{date}.yml'
+    with open(file=file_name, mode='w', encoding='utf-8') as file:
+        file.write(yaml.dump(parsed_yaml, allow_unicode=True).replace('\'\'', '\''))
