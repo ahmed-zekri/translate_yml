@@ -8,8 +8,6 @@ def translate_value(value, sub_key, key, sub_sub_key=None):
     global counter
     global parsed_yaml
     counter += 1
-    if counter > 20:
-        return
     print(f'translating {counter} of {all_items}')
     try:
         value = translator.translate(value, lang_tgt='fr')
