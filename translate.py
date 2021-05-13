@@ -77,14 +77,14 @@ if __name__ == '__main__':
     date = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
     output_file_name = f'translated_{date}.yml'
     parser = argparse.ArgumentParser(description='A command line program to translate yaml files')
-    parser.add_argument('-L', '--lang', type=str, default='en',
+    parser.add_argument('-l', '--lang', type=str, default='en',
                         help='The language in which the yaml file will be translated, the values must be equals to country codes for example:'
                              'en for english, fr for french and so on ... ', )
-    parser.add_argument('-F', '--file', required=True,
+    parser.add_argument('-f', '--file', required=True,
                         help='Add the path of the file to be translated (name of the file if it\'s at the same path)')
-    parser.add_argument('-ST', '--single-threading', default=False, action='store_true',
+    parser.add_argument('-st', '--single-threading', default=False, action='store_true',
                         help='translate all values in the main thread instead of splitting the translation process across different threads, this will drastically slow down the translation but it\'s safer to use to avoid google blocking requests from the scripts')
-    parser.add_argument('-O', '--output',
+    parser.add_argument('-o', '--output',
                         help='Specify the file name of the translated output file')
     args = parser.parse_args()
     single_threaded = args.single_threading
