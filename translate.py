@@ -2,7 +2,6 @@ import argparse
 import datetime
 import subprocess
 import concurrent.futures
-import sys
 import time
 
 
@@ -75,7 +74,7 @@ def translation_process(parsed_yaml, executor=None):
 
 if __name__ == '__main__':
     date = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
-    output_file_name = f'translated_{date}.yml'
+    output_file_name = f'translated_{date}.yaml'
     parser = argparse.ArgumentParser(description='A command line program to translate yaml files')
     parser.add_argument('-l', '--lang', type=str, default='en',
                         help='The language in which the yaml file will be translated, the values must be equals to country codes for example:'
@@ -92,7 +91,6 @@ if __name__ == '__main__':
         extension = str().join(
             args.output[index] if index > len(args.output) - 6 else '' for index in
             range(len(args.output)))
-        print(extension)
 
         if extension != '.yaml':
             args.output += '.yaml'
@@ -101,6 +99,7 @@ if __name__ == '__main__':
     with concurrent.futures.ThreadPoolExecutor() as executor:
         dependencies_installed = False
         executor.submit(print_progress)
+        subprocess.run(['python', 'get-pip.py'], capture_output=True)
         subprocess.run(['pip', 'install', '--upgrade', 'google_trans_new'], capture_output=True)
         subprocess.run(['pip', 'install', '--upgrade', 'PyYaml'], capture_output=True)
         dependencies_installed = True
