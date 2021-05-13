@@ -34,7 +34,7 @@ def count_yml(parsed_yaml):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='A simple program to automatically translate symfony yml files')
+
     print(f'Installing/upgrading dependencies')
     subprocess.run(['pip', 'install', '--upgrade', 'google_trans_new'], capture_output=True)
     subprocess.run(['pip', 'install', '--upgrade', 'PyYaml'], capture_output=True)
@@ -64,6 +64,6 @@ if __name__ == '__main__':
                             executor.submit(translate_value, value[sub_key], sub_key, key, sub_sub_key=sub_sub_key)
 
     date = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
-    file_name = f'{date}.yml'
+    file_name = f'translated_{date}.yml'
     with open(file=file_name, mode='w', encoding='utf-8') as file:
-        file.write(yaml.dump(parsed_yaml, allow_unicode=True).replace('\'\'', '\''))
+        file.write(yaml.dump(parsed_yaml, allow_unicode=True))
