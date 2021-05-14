@@ -1,7 +1,7 @@
 # Yaml file translator
 
 A Python script to automatically translate yaml files using google translator, very useful especially for frameworks
-that reliy on yaml to manage their translation process (for example symfony)
+that rely on yaml to manage their translation process (for example symfony), it even handles special characters e.g "%"
 
 ## Usage
 
